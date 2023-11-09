@@ -1,481 +1,859 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techrix – It solution HTML Template</title>
-    <!--favicon icon-->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <!--bootstrap css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- REVOLUTION STYLE SHEETS -->
-    <link rel="stylesheet" type="text/css" href="rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" type="text/css" href="rev/fonts/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="rev/css/rs6.css">
-    <!--owl carousel-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!--Progressbar CSS -->
-    <link rel="stylesheet" href="css/progressbar.css">
-    <!-- Animation CSS -->
-    <link rel="stylesheet" href="css/animations.min.css">
-    <!-- Magnefic Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.min.css">
-    <!--icon css -->
-    <link rel="stylesheet" href="fonts/font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
-    <!--style css-->
-    <link rel="stylesheet" href="css/style.css">
-    <!--responsive css-->
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <style>
-        .video-container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .content {
-            position: relative;
-            z-index: 1;
-            text-align: center;
-            color: #fff;
-            padding: 20px;
-        }
-    </style>
+    <?php include "component/style.php" ?>
 </head>
+
 <body>
-    
     <!-- Loading Start-->
     <div id="pq-loading">
         <div id="pq-loading-center">
-            <img src="https://www.yelocodesystems.com/assets/images/logo.png" alt="loading">
+            <img src="images/logos/logo-1.png" alt="loading">
         </div>
     </div>
     <!--Loading End -->
 
     <!--Header Start-->
-    <header id="pq-header" class="pq-header-style-1 pq-has-sticky">
-        <div class="pq-top-header">
-            <div class="container-fluid">
-            </div>
-        </div>
-        <div class="pq-bottom-header pq-has-sticky">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
-                        <img class="img-fluid logo" src="https://www.yelocodesystems.com/assets/images/logo.png" alt="yelocode systems" style="border-radius: 100%;height: 90px;">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <div id="pq-menu-contain" class="pq-menu-contain">
-                                    <ul id="pq-main-menu" class="navbar-nav ml-auto">
-                                        <li class="menu-item current-menu-item manu-item-has-children">
-                                            <a href="it-agency.html#">Home</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item current-menu-item menu-item-has-children">
-                                                    <a href="it-agency.html#">Muti Page</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="main-home.html" aria-current="page">Main Home</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="home-modern.html">home modern</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="start-up-home.html">Start Up Home</a>
-                                                        </li>
-                                                        <li class="menu-item current-menu-item">
-                                                            <a href="it-agency.html">IT Agency</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="software-company.html">Software Company</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="home-classic.html">home classic</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="it-agency.html#">One Page</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="one-page.html" aria-current="page">Onepage</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="one-page-2.html">Onepage 2</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="one-page-3.html">Onepage 3</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="it-agency.html#">Services</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item">
-                                                    <a href="software-development.html">Software Development</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="web-development.html">Web Development</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="mobile-development.html">Mobile Development</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="app-development.html">App Development</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="qa-testing.html">QA Testing</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="https://peacefulqode.com/themes/techtrix/html/product-portfolio-single.html">Product Design</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="it-agency.html#">Pages</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item">
-                                                    <a href="about-us.html">About Us</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="services.html">Our Services</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="our-team.html">Our Team</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="leadership.html">leadership</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="pricing-plan.html">Pricing Plan</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="faq.html">Faq</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="404.html">404</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="it-agency.html#">Portfolio</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="it-agency.html#">Types</a><i
-                                                        class="fa fa-chevron-down pq-submenu-icon"></i>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="standard.html">Standard</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="masonry.html">Masonry</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="masonry-joined.html">Masonry Joined</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="it-agency.html#">Columns</a><i
-                                                        class="fa fa-chevron-down pq-submenu-icon"></i>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="2-columns.html">2 columns</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="3-columns.html">3 columns</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="3-columns-wide.html">3 columns Wide</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="4-columns-wide.html">4 columns Wide</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="portfolio-single.html">Portfolio Single</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="it-agency.html#">Blog</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="it-agency.html#">Grid Style</a><i
-                                                        class="fa fa-chevron-down pq-submenu-icon"></i>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="one-column-blog.html">One Column Blog</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="two-column-blog.html">Two Column Blog</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="three-column-blog.html">Three Column Blog</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="it-agency.html#">Blog Sidebar</a><i
-                                                        class="fa fa-chevron-down pq-submenu-icon"></i>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="app-promotes-sales-profits-in-it-solutions.html">Blog
-                                                        Single</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="contact-us.html">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="pq-header-info-box">
-                                <div class="pq-header-call">
-                                    <a href="tel:+180045647824">
-                                        <i class="ion-ios-telephone"></i>
-                                        <div class="pq-call-info">
-                                            <h5>+1-800-456-478-24</h5>
-                                            <span>Make a call</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <a href="contact-us.html" class="pq-button">
-                                    <div class="pq-button-block">
-                                        <span class="pq-button-text">Free Quote</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fas fa-bars"></i>
-                            </button>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include "component/header.php" ?>
     <!--Header End-->
 
     <!--Banner Start-->
     <div class="banner py-0">
-    
-        <!-- START home 2 REVOLUTION SLIDER 6.3.2 --><p class="rs-p-wp-fix"></p>
-			<rs-module-wrap id="rev_slider_15_1_wrapper" data-alias="slider-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
-				<rs-module id="rev_slider_15_1" data-version="6.3.2">
-					<rs-slides>
-                    <video autoplay loop muted>
-                <source src="pics/open.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-						
+        <p class="rs-p-wp-fix"></p>
+        <rs-module-wrap id="rev_slider_14_1_wrapper" data-alias="slider-2" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+            <rs-module id="rev_slider_14_1" data-version="6.3.2">
+                <rs-slides>
+                    <rs-slide data-key="rs-41" data-title="Slide" data-thumb="rev/assets/banner-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
+                        <img src="rev/assets/banner.jpg" title="banner" width="1920" height="800" data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg" data-no-retina>
+                        <!--
+							--><rs-layer id="slider-14-slide-41-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on" data-xy="xo:30px,67px,15px,9px;y:m;yo:65px,58px,10px,-34px;" data-text="w:normal;s:18,16,12,7;l:30,24,18,11;" data-vbility="t,t,f,f" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:12;">There are many variations of passages Lorem Ipsum available, but<br>
+                            the majority have suffered alteration in some
+                        </rs-layer><!--
 
+							--><rs-layer id="slider-14-slide-41-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,65px,41px,-68px;y:m,m,t,m;yo:-50px,-41px,184px,-18px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:11;font-family:Jost;">We Provide IT <br> & Business Solutions
+                        </rs-layer><!--
 
+							--><rs-layer id="slider-14-slide-41-layer-4" data-type="text" data-color="#fd4a18" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:27px,60px,42px,-93px;y:m,m,t,t;yo:-146px,-129px,150px,57px;" data-text="w:normal;s:18;l:30;ls:3px,2px,1px,0px;fw:600;a:left,left,center,left;" data-padding="l:10,8,6,4;" data-border="boc:#fd4a18;bow:0,0,0,1px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:9;font-family:Jost;"># WE PROVIDE IT SERVICES
+                        </rs-layer><!--
 
-					</rs-slides>
-					<rs-static-layers><!--
-					--></rs-static-layers>
-				</rs-module>
-			</rs-module-wrap>
-			<!-- END REVOLUTION SLIDER -->
+							--><a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-271px,-156px;y:m;yo:160px,140px,83px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#fd4a18;">Read More
+                        </a><!--
 
-           
+							--><a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:232px,277px,-100px,-11px;y:m;yo:159px,140px,85px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#fd4a18;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
+                        </a><!--
+--> </rs-slide>
+                    <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
+                        <img src="rev/assets/banner4.jpg" title="banner4" width="1920" height="800" data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg" data-no-retina>
+                        <!--
+							--><rs-layer id="slider-14-slide-46-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on" data-xy="xo:30px,65px,15px,9px;y:m;yo:58px,54px,10px,-34px;" data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:12;">There are many variations of passages Lorem Ipsum available, but<br>
+                            the majority have suffered alteration in some
+                        </rs-layer><!--
+
+							--><rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:11;font-family:Jost;">Our Agency Provide <br> Best IT Solutions
+                        </rs-layer><!--
+
+							--><rs-layer id="slider-14-slide-46-layer-4" data-type="text" data-color="#fd4a18" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:27px,62px,46px,-83px;y:m,m,t,t;yo:-147px,-125px,154px,62px;" data-text="w:normal;s:18;l:30;ls:3px,2px,1px,0px;fw:600;a:left,left,center,left;" data-padding="l:10,8,6,4;" data-border="boc:#fd4a18;bow:0,0,0,1px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:9;font-family:Jost;"># IT Solutions For Easy Integration
+                        </rs-layer><!--
+
+							--><a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#fd4a18;">Read More
+                        </a><!--
+
+							--><a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#fd4a18;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
+                        </a><!--
+--> </rs-slide>
+                    <rs-slide data-key="rs-45" data-title="Slide" data-thumb="rev/assets/banner5-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
+                        <img src="rev/assets/banner5.jpg" title="banner5" width="1920" height="800" data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg" data-no-retina>
+                        <!--
+							--><rs-layer id="slider-14-slide-45-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on" data-xy="xo:30px,65px,15px,9px;y:m;yo:59px,70px,10px,-34px;" data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:12;">There are many variations of passages Lorem Ipsum available, but<br>
+                            the majority have suffered alteration in some
+                        </rs-layer><!--
+
+							--><rs-layer id="slider-14-slide-45-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,72px,55px,-83px;y:m,m,t,m;yo:-54px,-41px,186px,-22px;" data-text="w:normal;s:72,72,40,30;l:80,80,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:11;font-family:Jost;">Keep Secure Best <br> It Solution
+                        </rs-layer><!--
+
+							--><rs-layer id="slider-14-slide-45-layer-4" data-type="text" data-color="#fd4a18" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:27px,70px,48px,-93px;y:m,m,t,t;yo:-148px,-130px,159px,62px;" data-text="w:normal;s:18;l:30;ls:3px,2px,1px,0px;fw:600;a:left,left,center,left;" data-padding="l:10,8,6,4;" data-border="boc:#fd4a18;bow:0,0,0,1px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:9;font-family:Jost;"># WE PROVIDE IT SERVICES
+                        </rs-layer><!--
+
+							--><a id="slider-14-slide-45-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-267px,-151px;y:m;yo:150px,155px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#fd4a18;">Read More
+                        </a><!--
+
+							--><a id="slider-14-slide-45-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:230px,279px,-99px,-6px;y:m;yo:150px,155px,80px,59px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#fd4a18;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
+                        </a><!--
+--> </rs-slide>
+                </rs-slides>
+            </rs-module>
+        </rs-module-wrap>
     </div>
-   
     <!--Banner End-->
 
-    <!--Solution Start-->
-    <section class="pq-bg-grey pq-bg-img-1">
+    <!--Benefits Start-->
+    <section class="benefits pq-bg-dark pq-bg-img-2 pq-pb-220">
+        <div class="container">
+            <div class="row align-items-end pq-mb-45">
+                <div class="col-lg-6">
+                    <div class="pq-section pq-style-1 text-left">
+                        <span class="pq-section-sub-title"># our benefits</span>
+                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional" data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18" data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="pq-section-description pq-text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Benefits End-->
+
+    <!--services Start-->
+    <section class="py-0 pq-mt-220">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-8">
-                    <div class="pq-section pq-style-1 text-left">
-                        <span class="pq-section-sub-title"># we have more than it solutions.</span>
-                        <h5 class="pq-section-title" id="relationships" data-high_text="Relationships" data-title_text="We Deliver Solution With The Goal Of Trusting Relationships" data-rough_color="#fd4a18" data-rough_type="underline">We Deliver Solution With The Goal Of Trusting Relationships</h5>
-                        <p class="pq-section-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="pq-fancy-box pq-fancybox-8">
-                                <div class="pq-fancy-media">
-                                    <div class="pq-fancy-icon">
-                                        <i class="flaticon-marketing"></i>
-                                    </div>
-                                    <div class="pq-fancy-box-meta">
-                                        <span class="pq-fancy-box-subtitle">explore the service</span>
-                                        <h4 class="pq-fancybox-title">App Development</h4>
-                                    </div>
-                                </div>
-                                <p class="pq-fancy-box-info"> It is a long established fact that a reader will be distracted by the readable content.</p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a href="" class="pq-button pq-btn-link">
-                                            <span class="pq-button-text">Read More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-computer"></i>
+                            <h3 class="pq-fancy-box-title">01</h3>
                         </div>
-                        <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
-                            <div class="pq-fancy-box pq-fancybox-8">
-                                <div class="pq-fancy-media">
-                                    <div class="pq-fancy-icon">
-                                        <i class="flaticon-call-center"></i>
-                                    </div>
-                                    <div class="pq-fancy-box-meta">
-                                        <span class="pq-fancy-box-subtitle">explore the service</span>
-                                        <h4 class="pq-fancybox-title">Web Development</h4>
-                                    </div>
-                                </div>
-                                <p class="pq-fancy-box-info"> It is a long established fact that a reader will be distracted by the readable content.</p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a href="" class="pq-button pq-btn-link">
-                                            <span class="pq-button-text">Read More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">Digital Experience</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Fusce venenatis orci quis varius lobortis.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Duis gravida neque vel placerat molestie.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Sed scelerisque massa quis orci ull
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Pellentesque et ante vel tortor dignissim
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 mt-4 mt-xl-0">
-                    <div class="pq-list-box">
-                        <h5 class="pq-section-title pq-text-white" id="business" data-high_text="Business" data-title_text="Best Agency Business" data-rough_color="#fd4a18" data-rough_type="underline">Best Agency Business</h5>
-                        <ul class="pq-list-check">
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">Web Development</span>
-                            </li>
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">Mobile Development</span>
-                            </li>
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">UX/UI Design</span>
-                            </li>
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">It Consultancy</span>
-                            </li>
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">Product Engineering</span>
-                            </li>
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">Business Security</span>
-                            </li>
-                            <li class="pq-list-item">
-                                <a href="it-agency.html#"><i class="ion ion-android-done-all"></i></a>
-                                <span class="pq-text-white">Managed IT Services</span>
-                            </li>
-                        </ul>
+                <div class="col-xl-4 col-lg-6 col-md-6 mt-4 mt-md-0">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-call-center"></i>
+                            <h3 class="pq-fancy-box-title">02</h3>
+                        </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">Business Planning</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Duis gravida neque vel placerat molestie.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Sed scelerisque massa quis orci ull
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Fusce venenatis orci quis varius lobortis.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Pellentesque et ante vel tortor dignissim
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="experience">
-                        <h5 class="pq-experience-title">
-                            <a href="it-agency.html#" class="pq-text-white">25+ Year Experience</a>
-                        </h5>
+                </div>
+                <div class="col-xl-4 col-lg-12 col-md-12 mt-4 mt-xl-0">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-marketing"></i>
+                            <h3 class="pq-fancy-box-title">03</h3>
+                        </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">App Development</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Etiam dignissim purus in varius porttitor.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Proin vitae tellus mollis tellus maximus.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Integer tempus massa nec pellentesque.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Pellentesque et ante vel tortor dignissim
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Solution End-->
+    <!--services End-->
 
-    <!--Create Start-->
-    <section class="create">
+    <!--About Us Start-->
+    <section class="aboutus">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
-                    <img src="images/create/1.jpg" class="pq-image11" alt="">
-                    <img src="images/create/2.jpg" class="pq-image12" alt="">
-                    <div class="floating-counter pq-bg-primary">
-                        <div class="pq-counter pq-style-1">
-                            <div class="pq-counter-contain">
-                                <div class="pq-counter-info">
-                                    <div class="pq-counter-num-prefix">
-                                        <h5 class="timer" data-to="150" data-speed="2000">150</h5>
-                                        <span class="pq-counter-prefix">+</span>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="pq-section pq-style-1 text-left">
+                        <span class="pq-section-sub-title"># about us</span>
+                        <h5 class="pq-section-title" id="technology" data-high_text="Technology" data-title_text="Increasing Business Success With Technology" data-rough_color="#fd4a18" data-rough_type="underline">Increasing Business Success With Technology</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                    <div class="pq-progressbar-box pq-progressbar-style-1 ">
+                        <div class="pq-progressbar-content">
+                            <span class="progress-title">Managed It Services</span>
+                            <span class="progress-value">85% </span>
+                            <div class="pq-progress-bar">
+                                <span data-width="85" class="show-progress"></span>
+                            </div>
+                        </div>
+                        <div class="pq-progressbar-content">
+                            <span class="progress-title">It Support &amp; helpdesk</span>
+                            <span class="progress-value">92% </span>
+                            <div class="pq-progress-bar">
+                                <span data-width="92" class="show-progress"></span>
+                            </div>
+                        </div>
+                        <div class="pq-progressbar-content">
+                            <span class="progress-title">We Have an It Department</span>
+                            <span class="progress-value">80% </span>
+                            <div class="pq-progress-bar">
+                                <span data-width="80" class="show-progress"></span>
+                            </div>
+                        </div>
+                        <div class="pq-progressbar-content">
+                            <span class="progress-title">Software Developent</span>
+                            <span class="progress-value">99% </span>
+                            <div class="pq-progress-bar">
+                                <span data-width="99" class="show-progress"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mt-4 mt-lg-0">
+                    <div class="about-us-img">
+                        <img src="images/about-us/1.jpg" class="pq-image4 animated wow zoomIn" alt="">
+                        <img src="images/about-us/3.jpg" class="pq-image5 animated wow fadeInLeft" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Us End-->
+
+    <!--Services Start-->
+    <section class="pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title"># our services</span>
+                        <h5 class="pq-section-title" id="services" data-high_text="Services" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Provide Exclusive Services</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="false" data-loop="false" data-margin="30">
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Mobile Devlopment</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
                                     </div>
-                                    <p class="pq-counter-description pq-text-white">Projects Complete</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Greate Experienced</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-ecologic-light-bulb"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">It Consultant</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-user-interface"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                </p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Software Devlopment</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                </p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Web Devlopment</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                </p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 mt-4 mt-xl-0">
-                    <div class="pq-section pq-style-1 text-left">
-                        <span class="pq-section-sub-title"># creative our it technology</span>
-                        <h5 class="pq-section-title" id="agency" data-high_text="Agency" data-title_text="We Offer High Quality IT Agency Services" data-rough_color="#fd4a18" data-rough_type="underline">We Offer High Quality IT Agency Services</h5>
-                        <p class="pq-section-description">There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form, by injected humour variations of the suffered alteration in some form</p>
-                    </div>
+            </div>
+        </div>
+    </section>
+    <!--Services End-->
 
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="pq-fancy-box pq-fancybox-5">
-                                <div class="pq-fancy-media">
-                                    <i class="flaticon-design"></i>
-                                    <h5 class="pq-fancy-box-title">IT Management</h5>
-                                </div>
-                                <div class="pq-fancybox-info">
-                                    <p>Lorem Ipsum has been the industry’s text ever since the when.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
-                            <div class="pq-fancy-box pq-fancybox-5">
-                                <div class="pq-fancy-media">
-                                    <i class="flaticon-data-analytics"></i>
-                                    <h5 class="pq-fancy-box-title">IT consultancy</h5>
-                                </div>
-                                <div class="pq-fancybox-info">
-                                    <p>Lorem Ipsum has been the industry’s text ever since the when.</p>
-                                </div>
-                            </div>    
+    <!--Offer Start-->
+    <section class="pq-mt-90 py-0">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <img src="images/support/1.jpg" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8 col-md-8">
+                    <div class="pq-imagebox-content pq-bg-primary">
+                        <h1 class="pq-imagebox-title">Get 15 Minutes Complimentary Zoom<br> Or Skype Session.</h1>
+                        <div class="offer-time">
+                            <span class="pq-time pq-text-white">Limited Time Offer.</span>
+                            <a href="contact-us.html" class="pq-link">
+                                <span class="pq-link-text">Claim Now</span>
+                            </a>
                         </div>
                     </div>
-                    <div class="ceo d-flex align-items-center mt-4 mt-md-0">
-                        <div class="pq-image-box pq-style-2">
-                            <div class="pq-image-box-image">
-                                <img src="images/about-us/7.jpg" alt="">
-                            </div>
-                            <div class="pq-image-box-description">
-                                <h5 class="pq-image-box-title"><a href="it-agency.html#">Jhon doerr</a></h5>
-                                <p class="pq-image-box-description pq-text-primary mb-0">CEO OF PEACEFUL THEME</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Offer End-->
+
+    <!--Project Start-->
+    <section class="pb-0">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title"># our work coming your way</span>
+                        <h5 class="pq-section-title" id="projects" data-high_text="Projects" data-title_text="Latest Projects" data-rough_color="#fd4a18" data-rough_type="underline">Latest Projects</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0">
+            <div class="row g-0">
+                <div class="col-xl-12">
+                    <div class="pq-grid" data-next_items="4" data-initial_items="8">
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  5 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Cloud</a>
+                                        <a href="portfolio-single.html">Design</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Professional Services</a></h5>
+                                </div>
                             </div>
                         </div>
-                        <a href="about-us.html" class="pq-button pq-btn-flat pq-ml-30">
+
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  5  8 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Design</a>
+                                        <a href="portfolio-single.html">Technology</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Data Protection</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  5 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Cloud</a>
+                                        <a href="portfolio-single.html">Design</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Business Production</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  15  8 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Help Desk</a>
+                                        <a href="portfolio-single.html">Technology</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Tech Conference</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  15 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Cloud</a>
+                                        <a href="portfolio-single.html">Help Desk</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Best IT Practices</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  8 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Cloud</a><a href="portfolio-single.html">Technology</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Virtual Reality</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  5  15 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Design</a>
+                                        <a href="portfolio-single.html">Help Desk</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Security Analysis</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  8 ">
+                            <div class="pq-portfoliobox-2">
+                                <div class="pq-portfolio-img">
+                                    <a href="home-modern.html#">
+                                        <img src="images/grid/8.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-link">
+                                        <a href="portfolio-single.html">Cloud</a>
+                                        <a href="portfolio-single.html">Technology</a>
+                                    </div>
+                                    <h5><a href="portfolio-single.html">Problem Solutions</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Project End-->
+
+    <!--Client Start-->
+    <div class="client pq-bg-dark py-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="pq-client pq-60">
+                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="6" data-lap_num="5" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                            <div class="item">
+                                <div class="pq-clientbox-1">
+                                    <a href="contact-us.html">
+                                        <img class="pq-client-img" src="images/client/1.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/1.png" alt="pq-client-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pq-clientbox-1">
+                                    <a href="contact-us.html">
+                                        <img class="pq-client-img" src="images/client/2.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/2.png" alt="pq-client-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pq-clientbox-1">
+                                    <a href="contact-us.html">
+                                        <img class="pq-client-img" src="images/client/3.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/3.png" alt="pq-client-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pq-clientbox-1">
+                                    <a href="contact-us.html">
+                                        <img class="pq-client-img" src="images/client/4.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/4.png" alt="pq-client-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pq-clientbox-1">
+                                    <a href="contact-us.html">
+                                        <img class="pq-client-img" src="images/client/5.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/5.png" alt="pq-client-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Client End-->
+
+    <!--Why Us Start-->
+    <section class="whyus">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title"># why choose us</span>
+                        <h5 class="pq-section-title" id="service" data-high_text="Services" data-title_text="We Run All Kinds Of Services" data-rough_color="#fd4a18" data-rough_type="underline">We Run All Kinds Of Services</h5>
+                        <p class="pq-section-descrition">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pq-fancy-box pq-fancybox-1">
+                        <div class="pq-fancy-media"><i class=" flaticon-monitor-screen"></i></div>
+                        <div class="pq-fancybox-info">
+                            <h5 class="pq-fancy-box-title">High Quality Hardware</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-btn-link" href="web-development.html">
+                                        <span class="text">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pq-fancy-box pq-fancybox-1">
+                        <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
+                        <div class="pq-fancybox-info">
+                            <h5 class="pq-fancy-box-title">Dedicated 24\7 Support</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-btn-link" href="mobile-development.html">
+                                        <span class="text">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-12 col-md-12">
+                    <div class="pq-fancy-box pq-fancybox-1">
+                        <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
+                        <div class="pq-fancybox-info">
+                            <h5 class="pq-fancy-box-title"> Money-back Guarantee</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-btn-link" href="software-development.html">
+                                        <span class="text">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pq-fancy-box pq-fancybox-1">
+                        <div class="pq-fancy-media"><i class=" flaticon-laptop"></i></div>
+                        <div class="pq-fancybox-info">
+                            <h5 class="pq-fancy-box-title">Agile and Fast Working </h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-btn-link" href="qa-testing.html">
+                                        <span class="text">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pq-fancy-box pq-fancybox-1">
+                        <div class="pq-fancy-media"><i class=" flaticon-html"></i></div>
+                        <div class="pq-fancybox-info">
+                            <h5 class="pq-fancy-box-title">Some Apps are Free</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-btn-link" href="app-development.html">
+                                        <span class="text">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-12 col-md-12">
+                    <div class="pq-fancy-box pq-fancybox-1">
+                        <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-title">High Level of Usability</h4>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-btn-link" href="product-design.html">
+                                        <span class="text">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <p class="mb-0 fw-bolder">Success Your Technology. <a href="main-home.html" class="pq-text-primary">Take A Challenge!</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Why US End-->
+
+    <!--Pricing plan Start-->
+    <section class="pricing-plan pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title"># pricing & plans</span>
+                        <h5 class="pq-section-title" id="pricing" data-high_text="Pricing" data-title_text="Choose Your Best Pricing Plans" data-rough_color="#fd4a18" data-rough_type="underline">Choose Your Best Pricing Plans</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pq-pricebox pq-pricebox-3 text-center">
+                        <div class="pq-price-detail">
+                            <div class="pq-price-title">
+                                <span> Beginner Plan </span>
+                            </div>
+                            <div class="pq-price">
+                                <h2>$29.99</h2>
+                            </div>
+                            <div class="pq-price-package"> <span>Monthly</span></div>
+                            <div class="pq-list-content">
+                                <ul class="pq-list-info ">
+                                    <li class="">
+                                        <span>30 Days Trial Features</span>
+                                    </li>
+                                    <li class="">
+                                        <span>Synced To Cloud Database</span>
+                                    </li>
+                                    <li class="active">
+                                        <del>Easy Website Builder</del>
+                                    </li>
+                                    <li class="">
+                                        <span>10 Hours Of Support</span>
+                                    </li>
+                                    <li class="active">
+                                        <del>Social Media Integration</del>
+                                    </li>
+                                    <li class="">
+                                        <span>Unlimited Features</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-bg-dark" href="pricing-plan.html">
+                                        <span class="pq-button-text pq-text-white">Buy Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 mt-4 mt-md-0">
+                    <div class="pq-pricebox pq-pricebox-3 text-center active">
+                        <div class="pq-price-detail">
+                            <div class="pq-price-title">
+                                <span> Premium Plan </span>
+                            </div>
+                            <div class="pq-price">
+                                <h2>$59.99</h2>
+                            </div>
+                            <div class="pq-price-package"> <span>Monthly </span></div>
+                            <div class="pq-list-content">
+                                <ul class="pq-list-info ">
+                                    <li class="">
+                                        <span>30 Days Trial Features</span>
+                                    </li>
+                                    <li class="active">
+                                        <del>Synced To Cloud Database</del>
+                                    </li>
+                                    <li class="">
+                                        <span>Easy Website Builder</span>
+                                    </li>
+                                    <li class="active">
+                                        <del>10 Hours Of Support</del>
+                                    </li>
+                                    <li class="">
+                                        <span>Social Media Integration</span>
+                                    </li>
+                                    <li class="">
+                                        <span>Unlimited Features</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button" href="pricing-plan.html">
+                                        <span class="pq-button-text">Buy Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 mt-4 mt-xl-0">
+                    <div class="pq-pricebox pq-pricebox-3 text-center">
+                        <div class="pq-price-detail">
+                            <div class="pq-price-title">
+                                <span> Standard Plan </span>
+                            </div>
+                            <div class="pq-price">
+                                <h2>$99.99</h2>
+                            </div>
+                            <div class="pq-price-package"> <span>Monthly</span></div>
+                            <div class="pq-list-content">
+                                <ul class="pq-list-info ">
+                                    <li class="active">
+                                        <del>30 Days Trial Features</del>
+                                    </li>
+                                    <li class="">
+                                        <span>Synced To Cloud Database</span>
+                                    </li>
+                                    <li class="">
+                                        <span>Easy Website Builder</span>
+                                    </li>
+                                    <li class="">
+                                        <span>10 Hours Of Support</span>
+                                    </li>
+                                    <li class="">
+                                        <span>Social Media Integration</span>
+                                    </li>
+                                    <li class="active">
+                                        <del>Unlimited Features</del>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button pq-bg-dark" href="pricing-plan.html">
+                                        <span class="pq-button-text pq-text-white">Buy Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Pricing plan End-->
+
+    <!--Choose plan Start-->
+    <section class="choose-plan py-0">
+        <div class="container">
+            <div class="row align-items-center pq-bg-dark pq-bg-img-2 pq-90 br-5">
+                <div class="col-lg-8 col-md-8">
+                    <div class="pq-section pq-style-1 text-left">
+                        <span class="pq-section-sub-title"># pricing & plans</span>
+                        <h5 class="pq-section-title pq-text-white" id="plans" data-high_text="Pricing" data-title_text="Choose Your Best Pricing Plans" data-rough_color="#fd4a18" data-rough_type="underline">Choose Your Best Pricing Plans</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="button-align">
+                        <a href="contact-us.html" class="pq-button">
                             <div class="pq-button-block">
-                                <span class="pq-button-text">Read More</span>
+                                <span class="pq-button-text">Contact Us</span>
                             </div>
                         </a>
                     </div>
@@ -483,608 +861,7 @@
             </div>
         </div>
     </section>
-    <!--Create End-->
-
-    <!--Growth Start-->
-    <section class="pq-bg-dark pq-bg-img-2 pq-pb-220">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># our growth business</span>
-                        <h5 class="pq-section-title pq-text-white" id="company" data-high_text="Company" data-title_text="Intelligence And Collaboration IT Company Service." data-rough_color="#fd4a18" data-rough_type="underline">Intelligence And Collaboration IT Company Service.</h5>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="pq-icon-box pq-style-6">
-                        <div class="pq-icon-box-icon">
-                            <span class="pq-icon">
-                                <i class="flaticon-ux-design"></i>
-                            </span>
-                        </div>
-                        <div class="pq-icon-box-content">
-                            <h4 class="pq-icon-box-title">Cloud DevOps</h4>
-                            <p class="pq-icon-box-description">There are many variaons of passages Lorem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-4 mt-md-0">
-                    <div class="pq-icon-box pq-style-6">
-                        <div class="pq-icon-box-icon">
-                            <span class="pq-icon">
-                                <i class="flaticon-laptop"></i>
-                            </span>
-                        </div>
-                        <div class="pq-icon-box-content">
-                            <h4 class="pq-icon-box-title">Data Center</h4>
-                            <p class="pq-icon-box-description">There are many variaons of passages Lorem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-4 mt-xl-0">
-                    <div class="pq-icon-box pq-style-6">
-                        <div class="pq-icon-box-icon">
-                            <span class="pq-icon">
-                                <i class="flaticon-computer"></i>
-                            </span>
-                        </div>
-                        <div class="pq-icon-box-content">
-                            <h4 class="pq-icon-box-title">Product Design</h4>
-                            <p class="pq-icon-box-description">There are many variaons of passages Lorem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-4 mt-xl-0">
-                    <div class="pq-icon-box pq-style-6">
-                        <div class="pq-icon-box-icon">
-                            <span class="pq-icon">
-                                <i class="flaticon-monitor-screen"></i>
-                            </span>
-                        </div>
-                        <div class="pq-icon-box-content">
-                            <h4 class="pq-icon-box-title">Digital Services</h4>
-                            <p class="pq-icon-box-description">There are many variaons of passages Lorem</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Growth End-->
-
-    <!--Benefits Start-->
-    <section class="pq-mt-90 py-0">
-        <div class="container">
-            <div class="row pq-bg-primary align-items-center">
-                <div class="col-xl-6 pe-xl-4 pq-primary-section-side-left">
-                    <div class="pq-section pq-style-1 text-left">
-                        <span class="pq-section-sub-title pq-text-white"># our benefits</span>
-                        <h5 class="pq-section-title pq-text-white" id="challanges" data-high_text="Challenges" data-title_text="Solve Business Challenges With IT" data-rough_color="#ffffff" data-rough_type="underline">Solve Business Challenges With IT</h5>
-                        <p class="pq-section-description pq-text-white">There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form, by injected humour</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <ul class="pq-list-check mb-0">
-                                <li class="pq-list-item">
-                                    <i class="ion ion-checkmark-circled"></i>
-                                    <span class="pq-text-white">There are many variations</span>
-                                </li>
-                                <li class="pq-list-item">
-                                    <i class="ion ion-checkmark-circled"></i>
-                                    <span class="pq-text-white">Contrary to popular belief</span>
-                                </li>
-                                <li class="pq-list-item">
-                                    <i class="ion ion-checkmark-circled"></i>
-                                    <span class="pq-text-white">Sed scelerisque massa quis</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <ul class="pq-list-check">
-                                <li class="pq-list-item">
-                                    <i class="ion ion-checkmark-circled"></i>
-                                    <span class="pq-text-white">It is a long established that</span>
-                                </li>
-                                <li class="pq-list-item">
-                                    <i class="ion ion-checkmark-circled"></i>
-                                    <span class="pq-text-white">The standard chunk of Lorem</span>
-                                </li>
-                                <li class="pq-list-item">
-                                    <i class="ion ion-checkmark-circled"></i>
-                                    <span class="pq-text-white">Fusce venenatis orci quis</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="pq-text-white">Call To Book Appoinment <strong>987 654 3210</strong></p>
-                    <a href="home-modern.html" class="pq-button pq-bg-dark">
-                        <div class="pq-button-block">
-                            <span class="pq-button-text pq-text-white">Check Services</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 mt-4 mt-xl-0 p-xl-0">
-                    <img src="images/benefits/2.jpg" class="rounded" alt="benefits-img">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Benefits End-->
-
-    <!--Process Start-->
-    <section class="process-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># our values and goals</span>
-                        <h5 class="pq-section-title" id="process" data-high_text="Process" data-title_text="Our Work Process" data-rough_color="#fd4a18" data-rough_type="underline">Our Work Process</h5>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6">
-                    <div class="pq-process-step pq-process-1">
-                        <img class="pq-before-img-1" src="images/arrow-1.png" alt="arrow-img">
-                        <div class="pq-process-icon">
-                            <i class="flaticon-technical-support"></i>
-                            <span class="pq-process-number">01</span>
-                        </div>
-                        <div class="pq-process-info">
-                            <h5 class="pq-process-title">Choose a Service</h5>
-                            <p class="pq-process-description">There are many variations of passages of Lorem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-4 mt-md-0">
-                    <div class="pq-process-step pq-process-2">
-                        <img class="pq-before-img-2" src="images/arrow-2.png" alt="arrow-img">
-                        <div class="pq-process-icon">
-                            <i class=" flaticon-admin"></i>
-                            <span class="pq-process-number">02</span>
-                        </div>
-                        <div class="pq-process-info">
-                            <h5 class="pq-process-title">Request a Meeting</h5>
-                            <p class="pq-process-description">There are many variations of passages of Lorem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-4 mt-lg-0">
-                    <div class="pq-process-step pq-process-1">
-                        <img class="pq-before-img-3" src="images/arrow-1.png" alt="arrow-img">
-                        <div class="pq-process-icon">
-                            <i class="flaticon-globe"></i>
-                            <span class="pq-process-number">03</span>
-                        </div>
-                        <div class="pq-process-info">
-                            <h5 class="pq-process-title">Start Planing</h5>
-                            <p class="pq-process-description">There are many variations of passages of Lorem</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 mt-4 mt-xl-0">
-                    <div class="pq-process-step pq-process-2">
-                        <div class="pq-process-icon">
-                            <i class="flaticon-laptop"></i>
-                            <span class="pq-process-number">04</span>
-                        </div>
-                        <div class="pq-process-info">
-                            <h5 class="pq-process-title">Lets Make it Happen</h5>
-                            <p class="pq-process-description">There are many variations of passages of Lorem</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Process End-->
-
-    <!--Team Start-->
-    <section class="our-team pq-bg-grey pq-bg-img-1 exclusive">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># expert team</span>
-                        <h5 class="pq-section-title" id="members" data-high_text="Members" data-title_text="Our Team Members" data-rough_color="#fd4a18" data-rough_type="underline">Our Team Members</h5>
-                    </div>
-                    <div class="pq-team">
-                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                            <div class="item">
-                                <div class="pq-teambox-1">
-                                    <div class="pq-team-img">
-                                        <img src="images/team/2.jpg" alt="team-image">
-                                    </div>
-                                    <div class="pq-team-info pq-bg-white">
-                                        <h5>Alex Jhon Martin</h5>
-                                        <span class="pq-team-designation pq-text-primary">Web Designer</span>
-                                        <div class="pq-team-social">
-                                            <ul>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-google-plus"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-teambox-1">
-                                    <div class="pq-team-img">
-                                        <img src="images/team/3.jpg" alt="team-image">
-                                    </div>
-                                    <div class="pq-team-info pq-bg-white">
-                                        <h5>Alex Jhon Martin</h5>
-                                        <span class="pq-team-designation pq-text-primary">Web Designer</span>
-                                        <div class="pq-team-social">
-                                            <ul>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-google-plus"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-teambox-1">
-                                    <div class="pq-team-img">
-                                        <img src="images/team/4.jpg" alt="team-image">
-                                    </div>
-                                    <div class="pq-team-info pq-bg-white">
-                                        <h5>Alex Jhon Martin</h5>
-                                        <span class="pq-team-designation pq-text-primary">Web Designer</span>
-                                        <div class="pq-team-social">
-                                            <ul>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-google-plus"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-teambox-1">
-                                    <div class="pq-team-img">
-                                        <img src="images/team/5.jpg" alt="team-image">
-                                    </div>
-                                    <div class="pq-team-info pq-bg-white">
-                                        <h5>Alex Jhon Martin</h5>
-                                        <span class="pq-team-designation pq-text-primary">Web Designer</span>
-                                        <div class="pq-team-social">
-                                            <ul>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-google-plus"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-teambox-1">
-                                    <div class="pq-team-img">
-                                        <img src="images/team/6.jpg" alt="team-image">
-                                    </div>
-                                    <div class="pq-team-info pq-bg-white">
-                                        <h5>Alex Jhon Martin</h5>
-                                        <span class="pq-team-designation pq-text-primary">Web Designer</span>
-                                        <div class="pq-team-social">
-                                            <ul>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-google-plus"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-teambox-1">
-                                    <div class="pq-team-img">
-                                        <img src="images/team/7.jpg" alt="team-image">
-                                    </div>
-                                    <div class="pq-team-info pq-bg-white">
-                                        <h5>Alex Jhon Martin</h5>
-                                        <span class="pq-team-designation pq-text-primary">Web Designer</span>
-                                        <div class="pq-team-social">
-                                            <ul>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-google-plus"></i></a></li>
-                                                <li><a href="it-agency.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Team End-->
-
-    <!--Award Start-->
-    <section class="award">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># award nominees</span>
-                        <h5 class="pq-section-title" id="awards" data-high_text="Awards" data-title_text="Business And Industry Awards Programs" data-rough_color="#fd4a18" data-rough_type="underline">Business And Industry Awards Programs</h5>
-                    </div>
-
-                    <div class="pq-award">
-                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="5" data-lap_num="4" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="0">
-                            <div class="item">
-                                <div class="pq-awardbox-1">
-                                    <a href="it-agency.html#">
-                                        <img class="pq-award-img" src="images/award/1.png" alt="award-img">
-                                        <span class="pq-award-title">Clutch</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-awardbox-1">
-                                    <a href="it-agency.html#">
-                                        <img class="pq-award-img" src="images/award/2.png" alt="award-img">
-                                        <span class="pq-award-title">Development company</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-awardbox-1">
-                                    <a href="it-agency.html#">
-                                        <img class="pq-award-img" src="images/award/3.svg" alt="award-img">
-                                        <span class="pq-award-title">Upcity Marketplace</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="pq-awardbox-1">
-                                    <a href="it-agency.html#">
-                                        <img class="pq-award-img" src="images/award/4.png" alt="award-img">
-                                        <span class="pq-award-title">Top Developer</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Award End-->
-
-    <!--Testimonial Start-->
-    <section class="pq-bg-dark pq-bg-img-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title pq-text-white"># our testimonial</span>
-                        <h5 class="pq-section-title pq-text-white" id="solution" data-high_text="Solutions." data-title_text="Clinets Happy Our IT Solutions." data-rough_color="#fd4a18" data-rough_type="underline">Clinets Happy Our IT Solutions.</h5>
-                    </div>
-                </div>
-    
-                <div class="pq-testimonial pq-owl-testimonial-2">
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="2"
-                        data-lap_num="2" data-tab_num="1" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
-                        data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-testimonial-box pq-owl-testimonial-style-2">
-                                <div class="pq-testmonial-media">
-                                    <img src="images/testimonial/carousel/1.jpg" alt="testimonial-image">
-                                    <div class="pq-testimonial-info">
-                                        <h5>John Martin</h5>
-                                        <span>Software Developer</span>
-                                    </div>
-                                </div>
-                                <div class="pq-testimonial-meta">
-                                    <div class="pq-testimonial-content">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered
-                                            alteration in some form, by injected humour, or randomised words which don’t
-                                            look .</p>
-                                    </div>
-                                    <div class="pq-testimonial-star">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <div class="pq-quote">
-                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-testimonial-box pq-owl-testimonial-style-2">
-                                <div class="pq-testmonial-media">
-                                    <img src="images/testimonial/carousel/2.jpg" alt="testimonial-image">
-                                    <div class="pq-testimonial-info">
-                                        <h5>Alexa John Martin</h5>
-                                        <span>Android Developer</span>
-                                    </div>
-                                </div>
-                                <div class="pq-testimonial-meta">
-                                    <div class="pq-testimonial-content">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered
-                                            alteration in some form, by injected humour, or randomised words which don’t
-                                            look .</p>
-                                    </div>
-                                    <div class="pq-testimonial-star">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <div class="pq-quote">
-                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-testimonial-box pq-owl-testimonial-style-2">
-                                <div class="pq-testmonial-media">
-                                    <img src="images/testimonial/carousel/3.jpg" alt="testimonial-image">
-                                    <div class="pq-testimonial-info">
-                                        <h5>Naidan Smith</h5>
-                                        <span>Manager </span>
-                                    </div>
-                                </div>
-                                <div class="pq-testimonial-meta">
-                                    <div class="pq-testimonial-content">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered
-                                            alteration in some form, by injected humour, or randomised words which don’t
-                                            look .</p>
-                                    </div>
-    
-                                    <div class="pq-testimonial-star">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <div class="pq-quote">
-                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Testimonial End-->
-
-    <!--Business Start-->
-    <section class="pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="pq-section pq-style-1 text-left">
-                        <span class="pq-section-sub-title"># business event value</span>
-                        <h5 class="pq-section-title" id="startup" data-high_text="Business" data-title_text="How We Work For Your Business And Startup" data-rough_color="#fd4a18" data-rough_type="underline">How We Work For Your Business And Startup</h5>
-                        <p class="pq-section-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or words which don’t look even slightly believable If you going to used Lorem Ipsum,</p>
-                    </div>
-                    <a href="home-modern.html" class="pq-button pq-btn-flat">
-                        <div class="pq-button-block">
-                            <span class="pq-button-text">Read More</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 mt-4 mt-lg-0">
-                    <div class="pq-progressbar-box pq-progressbar-style-1 ">
-                        <div class="pq-progressbar-content">
-                            <span class="progress-title">Managed It Services</span>
-                            <span class="progress-value pq-text-primary">85% </span>
-                            <div class="pq-progress-bar">
-                                <span data-width="85" class="show-progress"></span>
-                            </div>
-                        </div>
-                        <div class="pq-progressbar-content">
-                            <span class="progress-title">It Support &amp; helpdesk</span>
-                            <span class="progress-value pq-text-primary">92% </span>
-                            <div class="pq-progress-bar">
-                                <span data-width="92" class="show-progress"></span>
-                            </div>
-                        </div>
-                        <div class="pq-progressbar-content">
-                            <span class="progress-title">We Have an It Department</span>
-                            <span class="progress-value pq-text-primary">80% </span>
-                            <div class="pq-progress-bar">
-                                <span data-width="80" class="show-progress"></span>
-                            </div>
-                        </div>
-                        <div class="pq-progressbar-content">
-                            <span class="progress-title">Augmented Reality</span>
-                            <span class="progress-value pq-text-primary">85%</span>
-                            <div class="pq-progress-bar">
-                                <span data-width="85" class="show-progress"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Business End-->
-
-    <!--Counter Start-->
-    <section class="counter pt-0 pb-0">
-        <div class="container pq-bg-primary rounded">
-            <div class="row text-center pq-counter-60">
-                <div class="col-lg-3 col-md-6">
-                    <div class="pq-counter pq-style-1">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="80" data-speed="2000">80</h5>
-                                    <span class="pq-counter-prefix">+</span>
-                                </div>
-                                <p class="pq-counter-description pq-text-white">Account Number</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 mt-md-0">
-                    <div class="pq-counter pq-style-1">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="128" data-speed="2000">128</h5>
-                                    <span class="pq-counter-prefix">+</span>
-                                </div>
-                                <p class="pq-counter-description pq-text-white">Happy Customers</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-xl-0 mt-4 mt-lg-0">
-                    <div class="pq-counter pq-style-1">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="350" data-speed="2000">350</h5>
-                                    <span class="pq-counter-prefix">+</span>
-                                </div>
-                                <p class="pq-counter-description pq-text-white">Finished Projects</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-xl-0 mt-4 mt-lg-0">
-                    <div class="pq-counter pq-style-1">
-                        <div class="pq-counter-contain">
-                            <div class="pq-counter-info">
-                                <div class="pq-counter-num-prefix">
-                                    <h5 class="timer" data-to="130" data-speed="2000">130</h5>
-                                    <span class="pq-counter-prefix">+</span>
-                                </div>
-                                <p class="pq-counter-description pq-text-white">Win Awards</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Counter End-->
+    <!--Choose plan End-->
 
     <!--Blog Start-->
     <section class="blog">
@@ -1092,288 +869,291 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># our latest news</span>
-                        <h5 class="pq-section-title" id="blog" data-high_text="Blog" data-title_text="Latest Blog Posts" data-rough_color="#fd4a18" data-rough_type="underline">Latest Blog Posts</h5>
+                        <span class="pq-section-sub-title"># our blog</span>
+                        <h5 class="pq-section-title" id="blog" data-high_text="Blog" data-title_text="See Our Latest Blog Posts" data-rough_color="#fd4a18" data-rough_type="underline">See Our Latest Blog Posts</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/1.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>26</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cyber Security</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">App promotes sales &amp; profits In It Solutions</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                    <div class="pq-blog">
+                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/1.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>26</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cyber Security</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">App promotes sales & profits In It Solutions</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/2.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>26</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">In Depth Industry &amp; Ecosystem Analysis</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/2.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>26</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">In Depth Industry &amp; Ecosystem Analysis</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/3.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">New Remote Workers Visible To Security ?</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/3.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">New Remote Workers Visible To Security ?</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/4.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Ways to Develop World Class Sales</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/4.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Ways to Develop World Class Sales</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/5.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">How Can I Manage IT Business Factor?</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/5.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">How Can I Manage IT Business Factor?</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/6.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Device Management</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Define World Best IT Solution Technology</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/6.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Device Management</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Define World Best IT Solution Technology</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/7.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Device Management</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Be-yourself-everyone-else-is-already-taken</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/7.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Device Management</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Be-yourself-everyone-else-is-already-taken</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/8.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Plan Your Project with Your Software</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/8.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Plan Your Project with Your Software</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/9.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a></li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Tips To Make Your Workforce A Security</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/9.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a></li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Tips To Make Your Workforce A Security</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/9.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"> <span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Planning Your Online Business Goals</a></h5>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat pq-mt-30">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
+                            <div class="item">
+                                <div class="pq-blog-post">
+                                    <div class="pq-post-media">
+                                        <img src="images/blog/9.jpg" alt="blog-img">
+                                        <div class="pq-post-date">
+                                            <a href="app-promotes-sales-profits-in-it-solutions.html"> <span>09</span>Jan</a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div class="pq-blog-contain">
+                                        <div class="pq-post-meta">
+                                            <ul>
+                                                <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
+                                                <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
+                                                </li>
+                                                <li class="pq-post-tag">
+                                                    <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Planning Your Online Business Goals</a></h5>
+                                        <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-flat mt-4">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Read More</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1384,188 +1164,43 @@
     </section>
     <!--Blog End-->
 
-    <!--Footer Start-->
-    <footer id="pq-footer" class="style-1">
-        <div class="pq-footer-style-1">
-            <div class="pq-footer-top">
-                <!-- footer top list  -->
-                <div class="pq-footer-bottom-list">
-                    <div class="container">
-                        <div class="row g-0">
-                            <div class="col-lg-4 p-0">
-                                <div class="pq-footer-items">
-                                    <i class="ti-location-pin"></i>
-                                    <div class="pq-footer-items-info">
-                                        <h4>Address</h4>
-                                        <span> 457,Gourandai Los Angeles,USA </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 p-0">
-                                <div class="pq-footer-items">
-                                    <i class="ti-mobile"></i>
-                                    <div class="pq-footer-items-info">
-                                        <h4>call Us On</h4>
-                                        <a href="tel:+180045647824">
-                                            <span>+1-800-456-478-24</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 p-0">
-                                <div class="pq-footer-items border-0">
-                                    <i class="ti-email"></i>
-                                    <div class="pq-footer-items-info">
-                                        <h4>Email Us</h4>
-                                        <a href="mailto:peacefulqode@gmail.com"><span>peacefulqode@gmail.com</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer top list -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-md-6">
-                            <div class="widget">
-                                <img src="images/logos/footer-logo.png" class="pq-footer-logo" alt="gym-footer-logo">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered.</p>
-                                <div class="pq-footer-social">
-                                    <ul>
-                                        <li><a href="it-agency.html#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="it-agency.html#"><i class="fab fa-github"></i></a></li>
-                                        <li><a href="it-agency.html#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="it-agency.html#"><i class="fab fa-skype"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3  col-md-6">
-                            <div class="widget">
-                                <h4 class="footer-title">Our Services</h4>
-                                <div class="menu-useful-service-links-container">
-                                    <ul id="menu-useful-service-links" class="menu">
-                                        <li>
-                                            <a href="software-development.html">Software Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="web-development.html">Web Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="mobile-development.html">Mobile Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="app-development.html">App Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="qa-testing.html">QA Testing</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3  col-md-6">
-                            <div class="widget">
-                                <h4 class="footer-title">Useful link</h4>
-                                <div class="menu-useful-link-container">
-                                    <ul id="menu-usefull-link" class="menu">
-                                        <li>
-                                            <a href="it-agency.html#">Fact Search Engine</a>
-                                        </li>
-                                        <li>
-                                            <a href="it-agency.html#">Learn and Code</a>
-                                        </li>
-                                        <li>
-                                            <a href="it-agency.html#">Video Sharing Website</a>
-                                        </li>
-                                        <li>
-                                            <a href="it-agency.html#">File &amp; URL Scanner</a>
-                                        </li>
-                                        <li>
-                                            <a href="it-agency.html#">Online Software Package</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3  col-md-6">
-                            <div class="pq-widget-menu widget">
-                                <h4 class="footer-title">Recent post</h4>
-                                <div class="pq-footer-recent-post">
-                                    <div class="pq-footer-recent-post-media">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html">
-                                            <img src="images/footer-blog/1.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="pq-footer-recent-post-info">
-                                        <h6><a href="app-promotes-sales-profits-in-it-solutions.html">App promotes sales
-                                                &amp; profits In It Solutions</a></h6>
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"
-                                            class="pq-post-date">January <span>26</span>, 2021 </a>
-                                    </div>
-                                </div>
-                                <div class="pq-footer-recent-post">
-                                    <div class="pq-footer-recent-post-media">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html">
-                                            <img src="images/footer-blog/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="pq-footer-recent-post-info">
-                                        <h6><a href="app-promotes-sales-profits-in-it-solutions.html">In Depth Industry
-                                                &amp; Ecosystem Analysis</a></h6>
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"
-                                            class="pq-post-date">January <span>26</span>, 2021 </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pq-copyright-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <span class="pq-copyright"><a target="_blank" href="it-agency.html#"> Copyright 2022 Techtrix All Rights
-                                    Reserved.</a></span>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="pq-footer-link">
-                                <ul>
-                                    <li><a href="it-agency.html#">Career</a></li>
-                                    <li><a href="it-agency.html#">Term Of Use</a></li>
-                                    <li><a href="it-agency.html#">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <!--Team Start-->
+    <div class="p-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="images/team/1.jpg" alt="">
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+    <!--Team End-->
+
+    <!--Footer Start-->
+  <?php include "component/footer.php"?>
     <!--Footer End-->
-    
+
     <!--Back to top Start-->
     <div id="back-to-top">
-        <a class="top" id="#top" href="it-agency.html#"> <i class="ion-ios-arrow-up"></i> </a>
+        <a class="top" id="#top" href="home-modern.html#"> <i class="ion-ios-arrow-up"></i> </a>
     </div>
     <!--Back to top End-->
-    
+
     <!--Jquery js-->
     <script src="js/jquery.min.js"></script>
     <!--Bootstrap js-->
     <script src="js/bootstrap.min.js"></script>
     <!--Owl Carousel js-->
     <script src="js/owl.carousel.min.js"></script>
-    <!--isotope js-->
+    <!--Progressbar js-->
+    <script src="js/progressbar.js"></script>
+    <!--Isotope js-->
     <script src="js/isotope.pkgd.min.js"></script>
-    <!--countTo js-->
+    <!--Counter js -->
     <script src="js/jquery.countTo.min.js"></script>
-    <!--Maginfic-Popup js-->
+    <!--Magnefic Popup js -->
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Animation JS -->
+    <!--Animation JS -->
     <script src="js/wow.min.js"></script>
     <!--Rev Slider js-->
     <script src="rev/js/rbtools.min.js"></script>
@@ -1577,4 +1212,5 @@
     <script src="js/rough-custom.js"></script>
     <script src="js/custom.js"></script>
 </body>
+
 </html>
