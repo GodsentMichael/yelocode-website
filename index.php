@@ -375,6 +375,97 @@
     </section>
     <!--About Us End-->
 
+    <!--Services Start-->
+    <section class="pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title"># our services</span>
+                        <h5 class="pq-section-title" id="services" data-high_text="Services" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Provide Exclusive Services</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="false" data-loop="false" data-margin="30">
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Mobile Devlopment</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Greate Experienced</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-ecologic-light-bulb"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">It Consultant</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-user-interface"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                </p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Software Devlopment</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                </p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-fancybox-boxslider fancyslider-1">
+                                <h4 class="pq-fancy-title">Web Devlopment</h4>
+                                <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                </p>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button pq-btn-link" href="services.html">
+                                            <span class="text">Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services End-->
+
     <!--Offer Start-->
     <section class="pq-mt-90 py-0">
         <div class="container">
@@ -569,7 +660,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="pq-client pq-60">
-                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="6" data-lap_num="3" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="6" data-lap_num="5" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                             <div class="item">
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
@@ -631,8 +722,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"> why choose us</span>
-                        <h5 class="pq-section-title" id="service" data-high_text="Services" data-title_text="Key Reasons Why You Should Choose Us" data-rough_color="#fd4a18" data-rough_type="underline">Key Reasons Why You Should Choose Us </h5>
+                        <span class="pq-section-sub-title"># why choose us</span>
+                        <h5 class="pq-section-title" id="service" data-high_text="Services" data-title_text="We Run All Kinds Of Services" data-rough_color="#fd4a18" data-rough_type="underline">We Run All Kinds Of Services</h5>
+                        <p class="pq-section-descrition">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     </div>
                 </div>
             </div>
@@ -641,8 +733,8 @@
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class="flaticon-monitor-screen"></i></div>
                         <div class="pq-fancybox-info">
-                            <h5 class="pq-fancy-box-title">High-Quality Hardware</h5>
-                            <p>We provide the contacts for genuine marketers wo sell top-notch hardware solutions for your business, ensuring reliability and performance. Reach out to learn about our hardware services.</p>
+                            <h5 class="pq-fancy-box-title">High Quality Hardware</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -657,8 +749,8 @@
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class="flaticon-marketing"></i></div>
                         <div class="pq-fancybox-info">
-                            <h5 class="pq-fancy-box-title">Dedicated 24/7 Support</h5>
-                            <p>Our dedicated support team is available around the clock to assist you. Experience hassle-free operations with our 24/7 support services.</p>
+                            <h5 class="pq-fancy-box-title">Dedicated 24\7 Support</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -673,8 +765,8 @@
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class="flaticon-call-center"></i></div>
                         <div class="pq-fancybox-info">
-                            <h5 class="pq-fancy-box-title">Money-back Guarantee</h5>
-                            <p>We stand by the quality of our services. If you're not satisfied, we offer a money-back guarantee. Learn more about our commitment.</p>
+                            <h5 class="pq-fancy-box-title"> Money-back Guarantee</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -689,8 +781,8 @@
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class=" flaticon-laptop"></i></div>
                         <div class="pq-fancybox-info">
-                            <h5 class="pq-fancy-box-title">Agile and Scrum Methodologies </h5>
-                            <p>We are DevOps oriented, and efficient delivery of softwares, is at the heart of our philosophy as a team. You can trust us to deliver efficient softwares to you.</p>
+                            <h5 class="pq-fancy-box-title">Agile and Fast Working </h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -706,8 +798,8 @@
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class=" flaticon-html"></i></div>
                         <div class="pq-fancybox-info">
-                            <h5 class="pq-fancy-box-title">Trusted Hosting Platform</h5>
-                            <p>There are many web apps and websites that crash just when the users are beginning to enjoy the services. This happens due to problematic cloud hosting services, but with us, you don't have to be afraid of that.</p>
+                            <h5 class="pq-fancy-box-title">Some Apps are Free</h5>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="app-development.html">
@@ -722,8 +814,8 @@
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
                         <div class="pq-fancybox-info">
-                            <h4 class="pq-fancy-box-title">Expertise In Database Management</h4>
-                            <p>Knowing when to use a relational or non-relational database for a project is one key to successful projects. Here at Yelocode Systems we analyse and use the project-specific database while managing it after the project is delvered.</p>
+                            <h4 class="pq-fancy-box-title">High Level of Usability</h4>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="product-design.html">
@@ -735,7 +827,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <p class="mb-0 fw-bolder">Let's Help You Empower Your Business with Technology. <a href="contact-us.php" class="pq-text-primary">Take the Challenge!</a></p>
+                    <p class="mb-0 fw-bolder">Success Your Technology. <a href="main-home.html" class="pq-text-primary">Take A Challenge!</a></p>
                 </div>
             </div>
         </div>
