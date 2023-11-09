@@ -1,9 +1,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Techrix – It solution HTML Template</title>
+<title>Yelocode Systems</title>
 <!--favicon icon-->
-<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/logos/logo-yelo.png">
 <!--bootstrap css-->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- REVOLUTION STYLE SHEETS -->
@@ -25,3 +25,9 @@
 <link rel="stylesheet" href="css/style.css">
 <!--responsive css-->
 <link rel="stylesheet" href="css/responsive.css">
+<style>
+    .offers{
+height: 249px!important;
+/* width:500px; */
+    }
+</style>
