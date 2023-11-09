@@ -64,7 +64,7 @@ Fonts
 Moz Selection
 ================================================*/
 :root {
-	--primary-color: #fd4a18;
+	--primary-color: #ffdf40;
 	--dark-color: #151515;
 	--secondary-color: #616161;
 	--grey-color: #F7F8F9;
@@ -744,7 +744,7 @@ Button Core
 	line-height: 2;
 	position: relative;
 	width: auto;
-	background: var(--primary-color);
+	background: #ffdf50;
 	color: var(--white-color);
 	vertical-align: middle;
 	display: inline-block;
@@ -786,7 +786,7 @@ Button Core
 	width: 0;
 	bottom: 5px;
 	right: 0;
-	background: var(--primary-color);
+	background: #ffdf50;
 	display: block;
 	transition: all 0.3s linear;
 }
@@ -1842,7 +1842,7 @@ header#pq-header.pq-header-style-1.pq-header-sticky .pq-bottom-header .navbar .n
 }
 
 header#pq-header.pq-header-style-1.pq-header-sticky .pq-header-call a .pq-call-info span {
-	color: var(--primary-color);
+	color: #ffdf50;
 }
 
 header#pq-header .pq-button:before,
@@ -2565,7 +2565,7 @@ Section Title
 	letter-spacing: .2em;
 	position: relative;
 	text-transform: uppercase;
-	color: var(--primary-color);
+	color: #ffdf30;
 	padding: 0;
 	margin: 0 0;
 	display: inline-block;
@@ -2632,7 +2632,7 @@ Icon Boxes
 .pq-icon-box.pq-style-2 .pq-icon i {
 	font-size: 46px;
 	color: var(--white-color);
-	background: var(--primary-color);
+	background:#ffdf30;
 	width: 100px;
 	height: 100px;
 	display: block;
@@ -3162,7 +3162,7 @@ Landing Page
 
 .it-solution .pq-button:hover,
 .it-solution .pq-buttin:focus{
-	background-color: var(--primary-color);
+	background-color: #ffdf50;
 }
 
 
@@ -4604,7 +4604,7 @@ Tabs
 }
 
 .pq-tabs-1 .nav-tabs .nav-item.active {
-	background: var(--primary-color);
+	background: #ffdf30;
 	color: var(--white-color);
 	position: relative;
 }
@@ -4615,11 +4615,11 @@ Tabs
 
 .pq-tabs-1 .nav-tabs .nav-item {
 	background: var(--grey-color);
-	color: var(--primary-color);
+	color:#ffdf30;
 }
 
 .pq-tabs-1 .nav-tabs .nav-item.active {
-	background: var(--primary-color);
+	background: #ffdf40;
 	color: var(--white-color);
 	position: relative;
 }
@@ -4648,12 +4648,12 @@ Tabs
 
 .pq-tabs-1 .nav-tabs .nav-item.active:after {
 	opacity: 1;
-	border-top-color: var(--primary-color);
+	border-top-color: #ffdf50;
 }
 
 .pq-tabs-1 .nav-tabs .nav-item.active:nth-child(even):after {
 	opacity: 1;
-	border-top-color: var(--primary-color);
+	border-top-color: #ffdf50;
 }
 
 /*=========*/
@@ -4685,7 +4685,7 @@ Tabs
 .pq-tabs-1 .tab-content .pq-tab-info ul li:before {
 	font-family: "Ionicons";
 	content: "\f382";
-	color: var(--primary-color);
+	color: #ffdf50;
 	margin-right: 10px;
 }
 
@@ -5335,7 +5335,7 @@ Progressbar
 .pq-progressbar-style-1 .pq-progress-bar span {
 	height: 5px;
 	display: inline-block;
-	background: var(--primary-color);
+	background: #ffdf30;
 	float: left;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
