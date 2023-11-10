@@ -161,10 +161,9 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <span class="pq-section-sub-title"># about us</span>
                         <h5 class="pq-section-title" id="technology" data-high_text="Technology"
                             data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Increasing Business Success With Technology</h5>
+                            data-rough_type="underline">Enhancing Business Achievement Through Technology</h5>
                         <p class="pq-section-description">IT management is the oversight and management of an
                             organization's hardware, software, and network systems. Its primary goal is to improve
                             employee productivity while also ensuring that information systems run smoothly.
@@ -172,31 +171,27 @@
                     </div>
                     <div class="pq-progressbar-box pq-progressbar-style-1 ">
                         <div class="pq-progressbar-content">
-                            <span class="progress-title">Managed It Services</span>
-                            <span class="progress-value">85% </span>
+                            <span class="progress-title">Total IT Management</span>
                             <div class="pq-progress-bar">
-                                <span data-width="85" class="show-progress"></span>
+                                <span data-width="100" class="show-progress"></span>
                             </div>
                         </div>
                         <div class="pq-progressbar-content">
-                            <span class="progress-title">It Support &amp; helpdesk</span>
-                            <span class="progress-value">92% </span>
+                            <span class="progress-title">Web & Application Development</span>
                             <div class="pq-progress-bar">
-                                <span data-width="92" class="show-progress"></span>
+                                <span data-width="100" class="show-progress"></span>
                             </div>
                         </div>
                         <div class="pq-progressbar-content">
-                            <span class="progress-title">We Have an It Department</span>
-                            <span class="progress-value">80% </span>
+                            <span class="progress-title">Internet Services / Site Hosting</span>
                             <div class="pq-progress-bar">
-                                <span data-width="80" class="show-progress"></span>
+                                <span data-width="100" class="show-progress"></span>
                             </div>
                         </div>
                         <div class="pq-progressbar-content">
-                            <span class="progress-title">Software Developent</span>
-                            <span class="progress-value">99% </span>
+                            <span class="progress-title">Network/Server Installation</span>
                             <div class="pq-progress-bar">
-                                <span data-width="99" class="show-progress"></span>
+                                <span data-width="100" class="show-progress"></span>
                             </div>
                         </div>
                     </div>
