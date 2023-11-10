@@ -34,32 +34,6 @@
 
                         </p>
                     </div>
-                    <!-- <ul class="pq-list-check pq-mb-30">
-                        <li class="pq-list-item">
-                            <a href="about-us.html">
-                                <i class="ion ion-android-done-all"></i>
-                                <span>Pellentesque et felis elementum, varius tellus a, eleifend elit.</span>
-                            </a>
-                        </li>
-                        <li class="pq-list-item">
-                            <a href="about-us.html">
-                                <i class="ion ion-android-done-all"></i>
-                                <span>Sed ullamcorper enim ut maximus accumsan.</span>
-                            </a>
-                        </li>
-                        <li class="pq-list-item">
-                            <a href="about-us.html">
-                                <i class="ion ion-android-done-all"></i>
-                                <span>Cras tristique lacus at gravida vulputate.</span>
-                            </a>
-                        </li>
-                        <li class="pq-list-item">
-                            <a href="about-us.html">
-                                <i class="ion ion-android-done-all"></i>
-                                <span>Fusce consectetur purus ac aliquam aliquet.</span>
-                            </a>
-                        </li>
-                    </ul> -->
                     <div class="pq-image-box pq-style-2">
                         <div class="pq-image-box-image">
                             <img src="images/about-us/7.jpg" alt="">
