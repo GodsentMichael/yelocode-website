@@ -1,37 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <?php include_once "component/style.php"?>
+    <?php include_once "component/style.php"?>
 </head>
+
 <body>
 
-   <?php include_once "component/page_loader.php"?>
+    <?php include_once "component/page_loader.php"?>
 
     <!--Header Start-->
-  <?php include_once "component/header.php"?>
+    <?php include_once "component/header.php"?>
     <!--Header End-->
-
-    <!--Breadcrumb Start-->
-    <!-- <div class="pq-breadcrumb pq-bg-dark pq-bg-img-2">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <nav aria-label="breadcrumb">
-                        <div class="pq-breadcrumb-title">
-                            <h1>About Us</h1>
-                        </div>
-                        <div class="pq-breadcrumb-container">
-                            <ol class="breadcrumb align-items-center">
-                                <li class="breadcrumb-item"><a href="main-home.html"><i class="fa fa-home me-2"></i>Home</a></li>
-                                <li class="breadcrumb-item active">About Us</li>
-                            </ol>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--Breadcrumb End-->
 
     <!--About Us Start-->
     <section class="aboutus">
@@ -39,11 +19,22 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <span class="pq-section-sub-title"># about us</span>
-                        <h5 class="pq-section-title" id="business" data-high_text="Business" data-title_text="Product Development For Better Business" data-rough_color="#fd4a18" data-rough_type="underline">Product Development For Better Business</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <h5 class="pq-section-title" id="business" data-high_text="Business"
+                            data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18"
+                            data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
+                        <p class="pq-section-description display-b">The following specialized professional services are
+                            provided
+                            by Yelocode Systems, including but not limited to information technology service design and
+                            development. ICT, intelligent software engineering, website design and development,
+                            networking, creative and graphic design, digital illustration & animation, digital media,
+                            and ERP <br>are among the fields in which we have expertise. We take great pleasure in
+                            offering <br>
+                            our clients the best possible service assistance, value-adding expert services, and
+                            satisfaction guarantees.
+
+                        </p>
                     </div>
-                    <ul class="pq-list-check pq-mb-30">
+                    <!-- <ul class="pq-list-check pq-mb-30">
                         <li class="pq-list-item">
                             <a href="about-us.html">
                                 <i class="ion ion-android-done-all"></i>
@@ -68,14 +59,14 @@
                                 <span>Fusce consectetur purus ac aliquam aliquet.</span>
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
                     <div class="pq-image-box pq-style-2">
                         <div class="pq-image-box-image">
                             <img src="images/about-us/7.jpg" alt="">
                         </div>
                         <div class="pq-image-box-description">
-                            <h5 class="pq-image-box-title"><a href="about-us.html#">Jhon doerr</a></h5>
-                            <p class="pq-image-box-description pq-text-primary mb-0">CEO OF PEACEFUL THEME</p>
+                            <h5 class="pq-image-box-title"><a href="about-us.html#">Edwin Eke</a></h5>
+                            <p class="pq-image-box-description pq-text-primary mb-0">CEO, Yelocode Systems</p>
                         </div>
                     </div>
                 </div>
@@ -94,11 +85,15 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
                         <span class="pq-section-sub-title"># our benefits</span>
-                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional" data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18" data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
+                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional"
+                            data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18"
+                            data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <p class="pq-section-description pq-text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer.</p>
+                    <p class="pq-section-description pq-text-white">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                        1500s, when an unknown printer.</p>
                 </div>
             </div>
         </div>
@@ -193,8 +188,13 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
                         <span class="pq-section-sub-title"># about us</span>
-                        <h5 class="pq-section-title" id="technology" data-high_text="Technology" data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18" data-rough_type="underline">Increasing Business Success With Technology</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <h5 class="pq-section-title" id="technology" data-high_text="Technology"
+                            data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18"
+                            data-rough_type="underline">Increasing Business Success With Technology</h5>
+                        <p class="pq-section-description">IT management is the oversight and management of an
+                            organization's hardware, software, and network systems. Its primary goal is to improve
+                            employee productivity while also ensuring that information systems run smoothly.
+                        </p>
                     </div>
                     <div class="pq-progressbar-box pq-progressbar-style-1 ">
                         <div class="pq-progressbar-content">
@@ -231,7 +231,8 @@
                     <div class="about-us-img text-end">
                         <img src="images/about-us/8.jpg" class="pq-image8 animated wow zoomIn" alt="">
                         <img src="images/about-us/9.jpg" class="pq-image9 animated wow fadeInLeft" alt="">
-                        <img src="images/about-us/1.svg" class="pq-image10 animated wow fadeInRight d-none d-xl-block" alt="">
+                        <img src="images/about-us/1.svg" class="pq-image10 animated wow fadeInRight d-none d-xl-block"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -246,15 +247,22 @@
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
                         <span class="pq-section-sub-title"># our services</span>
-                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Provide Exclusive Services</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive"
+                            data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18"
+                            data-rough_type="underline">Provide Exclusive Services</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
                     </div>
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3"
+                        data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
+                        data-loop="true" data-margin="30">
                         <div class="item">
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Mobile Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some</p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
                                         <a class="pq-button pq-btn-link" href="services.html">
@@ -268,7 +276,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Greate Experienced</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-ecologic-light-bulb"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some</p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
                                         <a class="pq-button pq-btn-link" href="services.html">
@@ -282,7 +291,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">It Consultant</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-user-interface"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -297,7 +307,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Software Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -312,7 +323,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Web Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -390,323 +402,12 @@
         </div>
     </section>
     <!--Counter End-->
-
-    <!--Blog Start-->
-    <section class="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># our blog</span>
-                        <h5 class="pq-section-title" id="update" data-high_text="Update" data-title_text="Latest Blog Update" data-rough_color="#fd4a18" data-rough_type="underline">Latest Blog Update</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/1.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>26</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cyber Security</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">App promotes sales &amp; profits In It Solutions</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/2.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>26</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">In Depth Industry &amp; Ecosystem Analysis</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/3.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">New Remote Workers Visible To Security ?</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/4.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Ways to Develop World Class Sales</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/5.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">How Can I Manage IT Business Factor?</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/6.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Device Management</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Define World Best IT Solution Technology</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/7.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Device Management</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Be-yourself-everyone-else-is-already-taken</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/8.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Cloud Computing</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Plan Your Project with Your Software</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/9.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"><span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a></li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Tips To Make Your Workforce A Security</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-blog-post">
-                                <div class="pq-post-media">
-                                    <img src="images/blog/9.jpg" alt="blog-img">
-                                    <div class="pq-post-date">
-                                        <a href="app-promotes-sales-profits-in-it-solutions.html"> <span>09</span>Jan</a>
-                                    </div>
-                                </div>
-                                <div class="pq-blog-contain">
-                                    <div class="pq-post-meta">
-                                        <ul>
-                                            <li class="pq-post-author"><i class="fa fa-user"></i>admin</li>
-                                            <li class="pq-post-meta"><a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-calendar"></i>January 2021</a>
-                                            </li>
-                                            <li class="pq-post-tag">
-                                                <a href="app-promotes-sales-profits-in-it-solutions.html"><i class="fa fa-tag"></i>Events</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="pq-blog-title"><a href="app-promotes-sales-profits-in-it-solutions.html">Planning Your Online Business Goals</a></h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                    <a href="app-promotes-sales-profits-in-it-solutions.html" class="pq-button pq-btn-outline">
-                                        <div class="pq-button-block">
-                                            <span class="pq-button-text">Read More</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Blog End-->
-
     <!--Footer Start-->
     <?php include "component/footer.php"?>
     <!--Footer End-->
 
     <!--Back to top Start-->
-    
+
     <!--Back to top End-->
     <!--Jquery js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
