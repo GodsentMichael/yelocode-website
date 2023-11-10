@@ -23,11 +23,14 @@
 <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
 <!--style css-->
 <link rel="stylesheet" href="css/style.css">
+<!--magnefic popup css-->
+<link rel="stylesheet" href="css/magnific-popup.min.css">
+<!--icon css -->
 <!--responsive css-->
 <link rel="stylesheet" href="css/responsive.css">
 <style>
-    .offers{
-height: 249px!important;
-/* width:500px; */
+    .offers {
+        height: 249px !important;
+        /* width:500px; */
     }
 </style>
