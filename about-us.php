@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <?php include_once "component/style.php"?>
+    <?php include_once "component/style.php" ?>
 </head>
 
 <body>
 
-    <?php include_once "component/page_loader.php"?>
+    <?php include_once "component/page_loader.php" ?>
 
     <!--Header Start-->
-    <?php include_once "component/header.php"?>
+    <?php include_once "component/header.php" ?>
     <!--Header End-->
 
     <!--About Us Start-->
@@ -19,24 +19,32 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title" id="business" data-high_text="Business"
-                            data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
-                        <p class="pq-section-description display-b">The following specialized professional services are
-                            provided
-                            by Yelocode Systems, including but not limited to information technology service design and
-                            development. ICT, intelligent software engineering, website design and development,
-                            networking, creative and graphic design, digital illustration & animation, digital media,
-                            and ERP <br>are among the fields in which we have expertise. We take great pleasure in
-                            offering <br>
-                            our clients the best possible service assistance, value-adding expert services, and
-                            satisfaction guarantees.
+                        <h5 class="pq-section-title" id="business" data-high_text="Business" data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18" data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
+                        <p class="pq-section-description display-b">Nestled within the vibrant city of Port Harcourt,
+                            Yelocode Systems Limited stands as a distinguished and registered IT training hub, renowned
+                            for its professional acumen and commitment to technological excellence. At Yelocode, we
+                            offer a comprehensive suite of IT solutions, encompassing the realms of web and mobile
+                            development, internet services, and site hosting, catering to the diverse and dynamic needs
+                            of modern businesses. Our expertise extends beyond mere services to include seamless network
+                            and server installations, where our adept team ensures the establishment of robust and
+                            efficient technological infrastructures for our clientele<span id="additionalContent"> Additionally, our cornerstone
+                            lies in providing a spectrum of IT training and refresher courses, meticulously crafted to
+                            empower individuals and enterprises, cultivating a skilled cadre of tech professionals.
 
+                            With an unwavering dedication to innovation, Yelocode Systems Limited is a catalyst for the
+                            evolving IT landscape, fostering an environment where knowledge meets practical application.
+                            Our mission is to equip individuals and businesses with the tools and expertise to navigate
+                            the ever-changing technological sphere. Through a commitment to staying at the forefront of
+                            technological advancements, we position ourselves as not just a training hub but as a beacon
+                            of transformation and progress. Yelocode's legacy is built upon a foundation of expertise,
+                            reliability, and a commitment to nurturing a community of tech-savvy individuals, thereby
+                            contributing to the growth and success of businesses in Port Harcourt and beyond.</span>.
+                            <a href="#" class="text-warning" id="seeMoreBtn">See More</a>
                         </p>
                     </div>
                     <div class="pq-image-box pq-style-2">
-                        <div class="pq-image-box-image">
-                            <img src="images/about-us/7.jpg" alt="">
+                        <div class="pq-image-box-image h-500">
+                            <img src="images/yelo-images/eddy2.JPG" alt="">
                         </div>
                         <div class="pq-image-box-description">
                             <h5 class="pq-image-box-title"><a href="about-us.html#">Edwin Eke</a></h5>
@@ -44,8 +52,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 mt-4 mt-lg-0">
-                    <img src="images/about-us/6.jpg" class="w-100" alt="">
+                <div class="col-xl-6 col-lg-6 mt-4 mt-lg-0 ">
+                    <img src="images/yelo-images/eddy.JPG" class="w-100 float-end" alt="">
                 </div>
             </div>
         </div>
@@ -59,9 +67,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
                         <span class="pq-section-sub-title"># our benefits</span>
-                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional"
-                            data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18"
-                            data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
+                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional" data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18" data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -154,18 +160,91 @@
         </div>
     </section>
     <!--services End-->
-
+    <section class="all-services">
+        <div class="container">
+            <div class="row mt-4 align-items-center border-0">
+                <div class="col-lg-6">
+                    <!-- <img src="images/about-us/2.jpg" alt=""> -->
+                    <iframe class="pq-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="images/yelo-images/yelo-2.mp4" id="widget2"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="pq-about-title mt-4 mt-lg-0"><a href="about-us.html">Few Of Our Developers At Work</a>
+                    </h2>
+                    <p class="pq-description mb-0">At Yelocode Systems Limited, our adept developers engage in
+                        innovative web and mobile development in our Port Harcourt-based IT hub.
+                        They specialize in:</p>
+                    <ul class="pq-list-check">
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Crafting dynamic
+                                    and responsive web solutions.</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Designing and
+                                    developing cutting-edge mobile applications.</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Providing
+                                    comprehensive IT training services.</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Offering top-tier
+                                    internet solutions for businesses and individuals.</span></a>
+                        </li>
+                    </ul>
+                    <span>Our developers excel in leveraging the latest technologies to deliver high-quality solutions
+                        and training within our dynamic IT environment.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="all-services close">
+        <div class="container">
+            <div class="row align-items-center border-0">
+                <div class="col-lg-6">
+                    <h2 class="pq-about-title mt-4 mt-lg-0"><a href="about-us.html">Few Of Our Developers At Work</a>
+                    </h2>
+                    <p class="pq-description mb-0">At Yelocode Systems Limited, our adept developers engage in
+                        innovative web and mobile development in our Port Harcourt-based IT hub.
+                        They specialize in:</p>
+                    <ul class="pq-list-check">
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Crafting dynamic
+                                    and responsive web solutions.</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Designing and
+                                    developing cutting-edge mobile applications.</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Providing
+                                    comprehensive IT training services.</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span>Offering top-tier
+                                    internet solutions for businesses and individuals.</span></a>
+                        </li>
+                    </ul>
+                    <span>Our developers excel in leveraging the latest technologies to deliver high-quality solutions
+                        and training within our dynamic IT environment.</span>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img src="images/about-us/2.jpg" alt=""> -->
+                    <iframe class="pq-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="images/yelo-images/yelo-2.mp4" id="widget2"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--About Us Start-->
     <section class="about-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title" id="technology" data-high_text="Technology"
-                            data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Enhancing Business Achievement Through Technology</h5>
+                        <h5 class="pq-section-title" id="technology" data-high_text="Technology" data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18" data-rough_type="underline">Enhancing Business
+                            Achievement Through Technology</h5>
                         <p class="pq-section-description">IT management is the oversight and management of an
-                            organization's hardware, software, and network systems. Its primary goal is to improve
+                            organization's hardware, software, and network systems. Its primary goal is to
+                            improve
                             employee productivity while also ensuring that information systems run smoothly.
                         </p>
                     </div>
@@ -200,8 +279,7 @@
                     <div class="about-us-img text-end">
                         <img src="images/about-us/8.jpg" class="pq-image8 animated wow zoomIn" alt="">
                         <img src="images/about-us/9.jpg" class="pq-image9 animated wow fadeInLeft" alt="">
-                        <img src="images/about-us/1.svg" class="pq-image10 animated wow fadeInRight d-none d-xl-block"
-                            alt="">
+                        <img src="images/about-us/1.svg" class="pq-image10 animated wow fadeInRight d-none d-xl-block" alt="">
                     </div>
                 </div>
             </div>
@@ -216,21 +294,20 @@
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
                         <span class="pq-section-sub-title"># our services</span>
-                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive"
-                            data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Provide Exclusive Services</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that
-                            a reader will be distracted by the readable content of a page when looking at its layout.
+                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Provide Exclusive Services</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established
+                            fact that
+                            a reader will be distracted by the readable content of a page when looking at its
+                            layout.
                         </p>
                     </div>
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3"
-                        data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
-                        data-loop="true" data-margin="30">
+                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                         <div class="item">
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Mobile Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                <p>There are many variations of passages of Lorem Ipsum available, but the
+                                    majority have
                                     suffered alteration in some</p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -245,7 +322,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Greate Experienced</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-ecologic-light-bulb"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                <p>There are many variations of passages of Lorem Ipsum available, but the
+                                    majority have
                                     suffered alteration in some</p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -260,7 +338,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">It Consultant</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-user-interface"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                <p>There are many variations of passages of Lorem Ipsum available, but the
+                                    majority have
                                     suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
@@ -276,7 +355,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Software Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                <p>There are many variations of passages of Lorem Ipsum available, but the
+                                    majority have
                                     suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
@@ -292,7 +372,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Web Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                <p>There are many variations of passages of Lorem Ipsum available, but the
+                                    majority have
                                     suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
@@ -372,14 +453,13 @@
     </section>
     <!--Counter End-->
     <!--Footer Start-->
-    <?php include "component/footer.php"?>
+    <?php include "component/footer.php" ?>
     <!--Footer End-->
 
     <!--Back to top Start-->
 
     <!--Back to top End-->
     <!--Jquery js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!--Bootstrap js-->
     <script src="js/bootstrap.min.js"></script>
     <!--Owl Carousel js-->
@@ -399,6 +479,14 @@
     <script src="js/rough-notation.iife.js"></script>
     <script src="js/rough-custom.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+    $(document).ready(function () {
+      // Toggle the visibility of additional content when the button is clicked
+      $('#seeMoreBtn').on('click', function () {
+        $('#additionalContent').toggle();
+      });
+    });
+  </script>
 </body>
 
 </html>

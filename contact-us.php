@@ -19,7 +19,7 @@
                     <div class="pq-bg-dark pq-contact-form-p">
                         <div class="pq-section pq-style-1 text-left">
                             <h5 class="pq-section-title pq-text-white" id="contacts" data-high_text="Contacts"
-                                data-title_text="Our Contacts" data-rough_color="#fd4a18" data-rough_type="underline">
+                                data-title_text="Our Contacts" data-rough_color="#ffdf40" data-rough_type="underline">
                                 Our Contacts</h5>
                             <p class="pq-section-description pq-text-white"></p>
                             <div class="row">
