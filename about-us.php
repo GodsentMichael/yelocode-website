@@ -12,7 +12,127 @@
     <!--Header Start-->
     <?php include_once "component/header.php" ?>
     <!--Header End-->
-
+    <section class="benefits pq-bg-dark pq-bg-img-2 pq-pb-220">
+        <div class="container">
+            <div class="row align-items-end pq-mb-45">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="pq-section pq-style-1 text-left">
+                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional"
+                            data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#ffdf40"
+                            data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <p class="pq-section-description pq-text-white">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                        1500s, when an unknown printer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Benefits End-->
+    <section class="py-0 pq-mt-220">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-computer"></i>
+                            <!-- <h3 class="pq-fancy-box-title">01</h3> -->
+                        </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">Diversity</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Inclusive culture fosters innovation and creativity.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Equality in tech: fostering talent diversity.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Embracing diversity drives collaborative excellence.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4 mt-md-0">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-call-center"></i>
+                            <!-- <h3 class="pq-fancy-box-title">02</h3> -->
+                        </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">Impact</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Changing things with new technology.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Helping lots of people using tech.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Doing big things with cool tech.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-12 col-md-12 mt-4 mt-xl-0">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-marketing"></i>
+                            <!-- <h3 class="pq-fancy-box-title">03</h3> -->
+                        </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">Brand Loyalty</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Trust keeps customers coming back.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Quality products build lasting customer trust.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Exceptional service earns loyal customer support.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-12 col-md-12 mt-4 mt-xl-0">
+                    <div class="pq-fancy-box pq-fancybox-4">
+                        <div class="pq-fancy-media"><i class=" flaticon-marketing"></i>
+                            <!-- <h3 class="pq-fancy-box-title">03</h3> -->
+                        </div>
+                        <div class="pq-fancybox-info">
+                            <h4 class="pq-fancy-box-sub-title">Authenticity</h4>
+                            <ul class="pq-fancy-list-box">
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Being real creates lasting impressions.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Sincerity builds bridges to loyal communities.
+                                </li>
+                                <li>
+                                    <i class="ion ion-android-done-all"></i>
+                                    Genuine actions build trustworthy brand identity.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--About Us Start-->
     <section class="aboutus">
         <div class="container">
@@ -73,7 +193,7 @@
     <!--About Us End-->
 
     <!--Benefits Start-->
-    <section class="benefits pq-bg-dark pq-bg-img-2 pq-pb-220">
+    <!-- <section class="benefits pq-bg-dark pq-bg-img-2 pq-pb-220">
         <div class="container">
             <div class="row align-items-end pq-mb-45">
                 <div class="col-xl-6 col-lg-6">
@@ -91,11 +211,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Benefits End-->
 
     <!--services Start-->
-    <section class="py-0 pq-mt-220">
+    <!-- <section class="py-0 pq-mt-220">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-md-6">
@@ -172,7 +292,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--services End-->
     <section class="all-services">
         <div class="container">
