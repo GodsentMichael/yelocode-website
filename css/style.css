@@ -6672,18 +6672,18 @@ Custom CSS
 .pq-image9 {
 	position: absolute;
 	border-style: solid;
-	border-width: 0 12px 12px 0;
+	border-width:  12px 0  0 12px;
 	border-color: var(--white-color);
 	border-radius: 5px;
-	width: 55%;
-	bottom: 40%;
-	right: 40%;
+	width: 50%;
+	bottom: -15%;
+	right: -20%;
 }
 
 .pq-image10 {
 	position: absolute;
 	bottom: 0%;
-	left: 9%;
+	left: 4%;
 }
 
 .pq-applyform .pq-name-error-message,
