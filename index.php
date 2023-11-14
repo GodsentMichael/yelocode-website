@@ -377,6 +377,12 @@
 
     <!--Services Start-->
     <section class="pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
+        //I'M TAKING PICTURES OF THE SERVICES 
+        // BECAUSE APPARENTLY, WE NEED TO TAKE PICTURES FOR THE WEBSITE.
+        // WHAT I'M WONDERING IS WHAT NMA IS DOING ON HER PC, SHE'S LOOKING SO SERIOUS,  AND I CAN'T HELP BUT WONDER WHAT SHE IS DOING
+        
+
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
