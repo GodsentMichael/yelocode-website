@@ -19,7 +19,9 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title" id="business" data-high_text="Business" data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18" data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
+                        <h5 class="pq-section-title" id="business" data-high_text="Business"
+                            data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18"
+                            data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
                         <p class="pq-section-description display-b">Nestled within the vibrant city of Port Harcourt,
                             Yelocode Systems Limited stands as a distinguished and registered IT training hub, renowned
                             for its professional acumen and commitment to technological excellence. At Yelocode, we
@@ -27,18 +29,28 @@
                             development, internet services, and site hosting, catering to the diverse and dynamic needs
                             of modern businesses. Our expertise extends beyond mere services to include seamless network
                             and server installations, where our adept team ensures the establishment of robust and
-                            efficient technological infrastructures for our clientele<span id="additionalContent"> Additionally, our cornerstone
-                            lies in providing a spectrum of IT training and refresher courses, meticulously crafted to
-                            empower individuals and enterprises, cultivating a skilled cadre of tech professionals.
+                            efficient technological infrastructures for our clientele<span id="additionalContent">
+                                Additionally, our cornerstone
+                                lies in providing a spectrum of IT training and refresher courses, meticulously crafted
+                                to
+                                empower individuals and enterprises, cultivating a skilled cadre of tech professionals.
 
-                            With an unwavering dedication to innovation, Yelocode Systems Limited is a catalyst for the
-                            evolving IT landscape, fostering an environment where knowledge meets practical application.
-                            Our mission is to equip individuals and businesses with the tools and expertise to navigate
-                            the ever-changing technological sphere. Through a commitment to staying at the forefront of
-                            technological advancements, we position ourselves as not just a training hub but as a beacon
-                            of transformation and progress. Yelocode's legacy is built upon a foundation of expertise,
-                            reliability, and a commitment to nurturing a community of tech-savvy individuals, thereby
-                            contributing to the growth and success of businesses in Port Harcourt and beyond.</span>.
+                                With an unwavering dedication to innovation, Yelocode Systems Limited is a catalyst for
+                                the
+                                evolving IT landscape, fostering an environment where knowledge meets practical
+                                application.
+                                Our mission is to equip individuals and businesses with the tools and expertise to
+                                navigate
+                                the ever-changing technological sphere. Through a commitment to staying at the forefront
+                                of
+                                technological advancements, we position ourselves as not just a training hub but as a
+                                beacon
+                                of transformation and progress. Yelocode's legacy is built upon a foundation of
+                                expertise,
+                                reliability, and a commitment to nurturing a community of tech-savvy individuals,
+                                thereby
+                                contributing to the growth and success of businesses in Port Harcourt and
+                                beyond.</span>.
                             <a href="#" class="text-warning" id="seeMoreBtn">See More</a>
                         </p>
                     </div>
@@ -67,7 +79,9 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
                         <span class="pq-section-sub-title"># our benefits</span>
-                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional" data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18" data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
+                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional"
+                            data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#fd4a18"
+                            data-rough_type="underline">We Deal With Aspects Professional IT Services</h5>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -165,7 +179,12 @@
             <div class="row mt-4 align-items-center border-0">
                 <div class="col-lg-6">
                     <!-- <img src="images/about-us/2.jpg" alt=""> -->
-                    <iframe class="pq-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="images/yelo-images/yelo-2.mp4" id="widget2"></iframe>
+                    <iframe class="pq-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="images/yelo-images/yelo-2.mp4" id="widget2" controls autoplay></iframe>
+                    <!-- <video width="640" height="360" loop>
+                        <source src="images/yelo-images/yelo-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+
                 </div>
                 <div class="col-lg-6">
                     <h2 class="pq-about-title mt-4 mt-lg-0"><a href="about-us.html">Few Of Our Developers At Work</a>
@@ -228,8 +247,7 @@
                         and training within our dynamic IT environment.</span>
                 </div>
                 <div class="col-lg-6">
-                    <!-- <img src="images/about-us/2.jpg" alt=""> -->
-                    <iframe class="pq-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="images/yelo-images/yelo-2.mp4" id="widget2"></iframe>
+                    <img src="images/yelo-images/training.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -240,7 +258,9 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title" id="technology" data-high_text="Technology" data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18" data-rough_type="underline">Enhancing Business
+                        <h5 class="pq-section-title" id="technology" data-high_text="Technology"
+                            data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18"
+                            data-rough_type="underline">Enhancing Business
                             Achievement Through Technology</h5>
                         <p class="pq-section-description">IT management is the oversight and management of an
                             organization's hardware, software, and network systems. Its primary goal is to
@@ -279,7 +299,8 @@
                     <div class="about-us-img text-end">
                         <img src="images/about-us/8.jpg" class="pq-image8 animated wow zoomIn" alt="">
                         <img src="images/about-us/9.jpg" class="pq-image9 animated wow fadeInLeft" alt="">
-                        <img src="images/about-us/1.svg" class="pq-image10 animated wow fadeInRight d-none d-xl-block" alt="">
+                        <img src="images/about-us/1.svg" class="pq-image10 animated wow fadeInRight d-none d-xl-block"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -294,14 +315,18 @@
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
                         <span class="pq-section-sub-title"># our services</span>
-                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Provide Exclusive Services</h5>
+                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive"
+                            data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18"
+                            data-rough_type="underline">Provide Exclusive Services</h5>
                         <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established
                             fact that
                             a reader will be distracted by the readable content of a page when looking at its
                             layout.
                         </p>
                     </div>
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3"
+                        data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
+                        data-loop="true" data-margin="30">
                         <div class="item">
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Mobile Devlopment</h4>
@@ -480,13 +505,13 @@
     <script src="js/rough-custom.js"></script>
     <script src="js/custom.js"></script>
     <script>
-    $(document).ready(function () {
-      // Toggle the visibility of additional content when the button is clicked
-      $('#seeMoreBtn').on('click', function () {
-        $('#additionalContent').toggle();
-      });
+    $(document).ready(function() {
+        // Toggle the visibility of additional content when the button is clicked
+        $('#seeMoreBtn').on('click', function() {
+            $('#additionalContent').toggle();
+        });
     });
-  </script>
+    </script>
 </body>
 
 </html>

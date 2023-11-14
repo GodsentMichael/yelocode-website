@@ -777,7 +777,7 @@
                                         <span>PHP, MySQL, JAVASCRIPT, Hosting, Node.js, Mongo DB, API,
                                             Security</span><br>
                                         <span>12 weeks</span><br>
-                                        <small class="fw-bold">#500,000p</small>
+                                        <small class="fw-bold">#500,000</small>
                                     </li>
                                 </ul>
                             </div>
