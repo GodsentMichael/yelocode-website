@@ -14,8 +14,6 @@
     <!--Header Start-->
     <?php include "component/header.php" ?>
     <!--Header End-->
-
-    <!--Goals Start-->
     <section class="goals">
         <div class="container">
             <div class="row">
@@ -84,9 +82,6 @@
             </div>
         </div>
     </section>
-    <!--Goals End-->
-
-    <!--Benefits Start-->
     <section class="benefits pq-bg-dark pq-bg-img-2">
         <div class="container">
             <div class="row">
@@ -127,9 +122,6 @@
         </div>
 
     </section>
-    <!--Benefits End-->
-
-    <!--Services Start-->
     <section class="service pb-3 pq-pt-200">
         <div class="container">
             <div class="row">
@@ -178,7 +170,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="tab-pane fade show" id="nav-1" role="tabpanel" aria-labelledby="nav-home-1">
                                 <div class="row flex-row-reverse">
@@ -207,7 +198,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="tab-pane fade show  " id="nav-2" role="tabpanel" aria-labelledby="nav-home-2">
                                 <div class="row">
@@ -225,7 +215,6 @@
                                                 <li>Security Testing</li>
                                                 <li>Bug Tracking and Reporting</li>
                                             </ul>
-
                                             <div class="pq-btn-container">
                                                 <div class="pq-button-block">
                                                     <a class="pq-button" href="contact-us.php">
@@ -253,7 +242,6 @@
                                                 <li>User Research</li>
                                                 <li>Brand Consistency</li>
                                             </ul>
-
                                             <div class="pq-btn-container">
                                                 <div class="pq-button-block">
                                                     <a class="pq-button" href="contact-us.php">
@@ -271,9 +259,6 @@
             </div>
         </div>
     </section>
-    <!--Services End-->
-
-    <!-- Why Us Start-->
     <section class="whyus">
         <div class="container">
             <div class="row">
@@ -348,7 +333,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="pq-fancy-box pq-fancybox-1">
@@ -388,13 +372,6 @@
             </div>
         </div>
     </section>
-    <!--Why US End -->
-
-    <!--Why Us Start-->
-    <!--Why US End-->
-
-
-    <!--Client Start-->
     <div class="client pq-bg-dark py-0">
         <div class="container-fluid">
             <div class="row">
@@ -455,19 +432,9 @@
             </div>
         </div>
     </div>
-    <!--Client End-->
-
-
     <!--Footer Start-->
  <?php include "component/footer.php"?>
     <!--Footer End-->
-
-    <!--Back to top Start-->
-    <div id="back-to-top">
-        <a class="top" id="#top" href="services.html#"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
-    <!--Back to top End-->
-
     <!--Jquery js-->
     <script src="js/jquery.min.js"></script>
     <!--Bootstrap js-->

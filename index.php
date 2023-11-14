@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <?php include "component/page_loader.php"?>
+    <?php include "component/page_loader.php" ?>
 
     <!--Header Start-->
     <?php include "component/header.php" ?>
@@ -24,8 +24,6 @@
                         <img src="rev/assets/banner.jpg" title="banner" width="1920" height="800"
                             data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg"
                             data-no-retina>
-                        <!--
-							-->
                         <rs-layer id="slider-14-slide-41-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on"
                             data-xy="xo:30px,67px,15px,9px;y:m;yo:65px,58px,10px,-34px;"
                             data-text="w:normal;s:18,16,12,7;l:30,24,18,11;" data-vbility="t,t,f,f"
@@ -33,28 +31,13 @@
                             style="z-index:12;">There are many variations of passages Lorem Ipsum available, but<br>
                             the majority have suffered alteration in some
                         </rs-layer>
-                        <!--
-
-							-->
                         <rs-layer id="slider-14-slide-41-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:30px,65px,41px,-68px;y:m,m,t,m;yo:-50px,-41px,184px,-18px;"
                             data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;"
                             data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
                             style="z-index:11;font-family:Jost;">We Provide IT <br> & Business Solutions
                         </rs-layer>
-                        <!--
-
-							-->
-                        <!-- <rs-layer id="slider-14-slide-41-layer-4" data-type="text" data-color="#fd4a18" data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:27px,60px,42px,-93px;y:m,m,t,t;yo:-146px,-129px,150px,57px;"
-                            data-text="w:normal;s:18;l:30;ls:3px,2px,1px,0px;fw:600;a:left,left,center,left;"
-                            data-padding="l:10,8,6,4;" data-border="boc:#fd4a18;bow:0,0,0,1px;"
-                            data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            style="z-index:9;font-family:Jost;"># WE PROVIDE IT SERVICES
-                        </rs-layer> -->
-                        <!--
-
-							--><a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self"
+                        <a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self"
                             data-type="button" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:30px,65px,-271px,-156px;y:m;yo:160px,140px,83px,65px;"
                             data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
@@ -64,10 +47,8 @@
                             data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;"
                             style="z-index:10;background-color:#ffdf40;">Read More
                         </a>
-                        <!--
-
-							--><a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self"
-                            data-type="button" data-rsp_ch="on"
+                        <a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.html"
+                            target="_self" data-type="button" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:232px,277px,-100px,-11px;y:m;yo:159px,140px,85px,65px;"
                             data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
                             data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
@@ -76,16 +57,12 @@
                             data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;"
                             style="z-index:8;background-color:#151515;">Contact Us
                         </a>
-                        <!--
--->
                     </rs-slide>
                     <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg"
                         data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
                         <img src="rev/assets/banner4.jpg" title="banner4" width="1920" height="800"
                             data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg"
                             data-no-retina>
-                        <!--
-							-->
                         <rs-layer id="slider-14-slide-46-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on"
                             data-xy="xo:30px,65px,15px,9px;y:m;yo:58px,54px,10px,-34px;"
                             data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f"
@@ -93,28 +70,13 @@
                             style="z-index:12;">There are many variations of passages Lorem Ipsum available, but<br>
                             the majority have suffered alteration in some
                         </rs-layer>
-                        <!--
-
-							-->
                         <rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;"
                             data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;"
                             data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
                             style="z-index:11;font-family:Jost;">Our Agency Provide <br> Best IT Solutions
                         </rs-layer>
-                        <!--
-
-							-->
-                        <!-- <rs-layer id="slider-14-slide-46-layer-4" data-type="text" data-color="#fd4a18" data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:27px,62px,46px,-83px;y:m,m,t,t;yo:-147px,-125px,154px,62px;"
-                            data-text="w:normal;s:18;l:30;ls:3px,2px,1px,0px;fw:600;a:left,left,center,left;"
-                            data-padding="l:10,8,6,4;" data-border="boc:#fd4a18;bow:0,0,0,1px;"
-                            data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            style="z-index:9;font-family:Jost;"># IT Solutions For Easy Integration
-                        </rs-layer> -->
-                        <!--
-
-							--><a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self"
+                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self"
                             data-type="button" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;"
                             data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
@@ -125,10 +87,8 @@
                             style="z-index:10;background-color:#ffdf40;">Read More
                         </a>
                         <!-- #fd4a18 -->
-                        <!--
-
-							--><a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self"
-                            data-type="button" data-rsp_ch="on"
+                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.html"
+                            target="_self" data-type="button" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;"
                             data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
                             data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
@@ -137,16 +97,12 @@
                             data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;"
                             style="z-index:8;background-color:#151515;">Contact Us
                         </a>
-                        <!--
--->
                     </rs-slide>
                     <rs-slide data-key="rs-45" data-title="Slide" data-thumb="rev/assets/banner5-50x100.jpg"
                         data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
                         <img src="rev/assets/banner5.jpg" title="banner5" width="1920" height="800"
                             data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg"
                             data-no-retina>
-                        <!--
-							-->
                         <rs-layer id="slider-14-slide-45-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on"
                             data-xy="xo:30px,65px,15px,9px;y:m;yo:59px,70px,10px,-34px;"
                             data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f"
@@ -154,28 +110,13 @@
                             style="z-index:12;">There are many variations of passages Lorem Ipsum available, but<br>
                             the majority have suffered alteration in some
                         </rs-layer>
-                        <!--
-
-							-->
                         <rs-layer id="slider-14-slide-45-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:30px,72px,55px,-83px;y:m,m,t,m;yo:-54px,-41px,186px,-22px;"
                             data-text="w:normal;s:72,72,40,30;l:80,80,48,38;fw:700;" data-frame_0="x:50,39,29,17;"
                             data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
                             style="z-index:11;font-family:Jost;">Keep Secure Best <br> It Solution
                         </rs-layer>
-                        <!--
-
-							-->
-                        <!-- <rs-layer id="slider-14-slide-45-layer-4" data-type="text" data-color="#fd4a18" data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:27px,70px,48px,-93px;y:m,m,t,t;yo:-148px,-130px,159px,62px;"
-                            data-text="w:normal;s:18;l:30;ls:3px,2px,1px,0px;fw:600;a:left,left,center,left;"
-                            data-padding="l:10,8,6,4;" data-border="boc:#fd4a18;bow:0,0,0,1px;"
-                            data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            style="z-index:9;font-family:Jost;"># WE PROVIDE IT SERVICES
-                        </rs-layer> -->
-                        <!--
-
-							--><a id="slider-14-slide-45-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self"
+                        <a id="slider-14-slide-45-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self"
                             data-type="button" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:30px,65px,-267px,-151px;y:m;yo:150px,155px,80px,60px;"
                             data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
@@ -185,10 +126,9 @@
                             data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;"
                             style="z-index:10;background-color:#ffdf40;">Read More
                         </a>
-                        <!--
-##ffdf40
-							--><a id="slider-14-slide-45-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self"
-                            data-type="button" data-rsp_ch="on"
+                        <!-- #ffdf40 -->
+                        <a id="slider-14-slide-45-layer-8" class="rs-layer rev-btn" href="contact-us.html"
+                            target="_self" data-type="button" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:230px,279px,-99px,-6px;y:m;yo:150px,155px,80px,59px;"
                             data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
                             data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
@@ -197,16 +137,11 @@
                             data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;"
                             style="z-index:8;background-color:#151515;">Contact Us
                         </a>
-                        <!--
--->
                     </rs-slide>
                 </rs-slides>
             </rs-module>
         </rs-module-wrap>
     </div>
-    <!--Banner End-->
-
-    <!--Benefits Start-->
     <section class="benefits pq-bg-dark pq-bg-img-2 pq-pb-220">
         <div class="container">
             <div class="row align-items-end pq-mb-45">
@@ -225,9 +160,6 @@
             </div>
         </div>
     </section>
-    <!--Benefits End-->
-
-    <!--services Start-->
     <section class="py-0 pq-mt-220">
         <div class="container">
             <div class="row justify-content-center">
@@ -318,9 +250,6 @@
             </div>
         </div>
     </section>
-    <!--services End-->
-
-    <!--About Us Start-->
     <section class="aboutus">
         <div class="container">
             <div class="row align-items-center">
@@ -373,9 +302,6 @@
             </div>
         </div>
     </section>
-    <!--About Us End-->
-
-    <!--Services Start-->
     <section class="pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
         //I'M TAKING PICTURES OF THE SERVICES 
         // BECAUSE APPARENTLY, WE NEED TO TAKE PICTURES FOR THE WEBSITE.
@@ -388,15 +314,22 @@
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
                         <span class="pq-section-sub-title"># our services</span>
-                        <h5 class="pq-section-title" id="services" data-high_text="Services" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Provide Exclusive Services</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <h5 class="pq-section-title" id="services" data-high_text="Services"
+                            data-title_text="Provide Exclusive Services" data-rough_color="#ffdf40"
+                            data-rough_type="underline">Provide Exclusive Services</h5>
+                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
                     </div>
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="false" data-loop="false" data-margin="30">
+                    <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-desk_num="3"
+                        data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="false"
+                        data-loop="false" data-margin="30">
                         <div class="item">
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Mobile Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some</p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
                                         <a class="pq-button pq-btn-link" href="services.html">
@@ -410,7 +343,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Greate Experienced</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-ecologic-light-bulb"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some.</p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
                                         <a class="pq-button pq-btn-link" href="services.html">
@@ -424,7 +358,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">It Consultant</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-user-interface"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -439,7 +374,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Software Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -454,7 +390,8 @@
                             <div class="pq-fancybox-boxslider fancyslider-1">
                                 <h4 class="pq-fancy-title">Web Devlopment</h4>
                                 <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some
                                 </p>
                                 <div class="pq-btn-container">
                                     <div class="pq-button-block">
@@ -470,9 +407,6 @@
             </div>
         </div>
     </section>
-    <!--Services End-->
-
-    <!--Offer Start-->
     <section class="pq-mt-90 py-0">
         <div class="container">
             <div class="row g-0">
@@ -493,9 +427,6 @@
             </div>
         </div>
     </section>
-    <!--Offer End-->
-
-    <!--Project Start-->
     <section class="pb-0">
         <div class="container">
             <div class="row g-0">
@@ -504,8 +435,9 @@
                         <h5 class="pq-section-title" id="projects" data-high_text="Projects"
                             data-title_text="Latest Projects" data-rough_color="#ffdf40 " data-rough_type="underline">
                             Latest Projects</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established fact that
-                            a reader will be distracted by the readable content of a page when looking at its layout.
+                        <p class="pq-section-description">We are thrilled to present our most recent projects, which
+                            highlight creative solutions and push the envelope of imagination to satisfy our clients'
+                            and users' changing needs.
                         </p>
                     </div>
                 </div>
@@ -523,16 +455,14 @@
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
+                                    <!-- <div class="pq-portfolio-link">
                                         <a href="portfolio-single.html">Cloud</a>
                                         <a href="portfolio-single.html">Design</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Professional Services</a></h5>
+                                    </div> -->
+                                    <h5><a href="portfolio-single.html">View Project</a></h5>
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  5  8 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
@@ -541,15 +471,14 @@
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
+                                    <!-- <div class="pq-portfolio-link">
                                         <a href="portfolio-single.html">Design</a>
                                         <a href="portfolio-single.html">Technology</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Data Protection</a></h5>
+                                    </div> -->
+                                    <h5><a href="portfolio-single.html">View Project</a></h5>
                                 </div>
                             </div>
                         </div>
-
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  5 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
@@ -558,16 +487,15 @@
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
+                                    <!-- <div class="pq-portfolio-link">
                                         <a href="portfolio-single.html">Cloud</a>
                                         <a href="portfolio-single.html">Design</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Business Production</a>
+                                    </div> -->
+                                    <h5><a href="portfolio-single.html"><Var>View Project</Var></a>
                                     </h5>
                                 </div>
                             </div>
                         </div>
-
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  15  8 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
@@ -576,102 +504,34 @@
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
+                                    <!-- <div class="pq-portfolio-link">
                                         <a href="portfolio-single.html">Help Desk</a>
                                         <a href="portfolio-single.html">Technology</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Tech Conference</a></h5>
+                                    </div> -->
+                                    <h5><a href="portfolio-single.html">View Project</a></h5>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  15 ">
-                            <div class="pq-portfoliobox-2">
-                                <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
-                                        <img src="images/grid/5.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
-                                        <a href="portfolio-single.html">Cloud</a>
-                                        <a href="portfolio-single.html">Help Desk</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Best IT Practices</a></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  8 ">
-                            <div class="pq-portfoliobox-2">
-                                <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
-                                        <img src="images/grid/6.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
-                                        <a href="portfolio-single.html">Cloud</a><a
-                                            href="portfolio-single.html">Technology</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Virtual Reality</a></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  5  15 ">
-                            <div class="pq-portfoliobox-2">
-                                <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
-                                        <img src="images/grid/7.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
-                                        <a href="portfolio-single.html">Design</a>
-                                        <a href="portfolio-single.html">Help Desk</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Security Analysis</a>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  8 ">
-                            <div class="pq-portfoliobox-2">
-                                <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
-                                        <img src="images/grid/8.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="pq-portfolio-info">
-                                    <div class="pq-portfolio-link">
-                                        <a href="portfolio-single.html">Cloud</a>
-                                        <a href="portfolio-single.html">Technology</a>
-                                    </div>
-                                    <h5><a href="portfolio-single.html">Problem Solutions</a></h5>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Project End-->
-
-    <!--Client Start-->
     <div class="client pq-bg-dark py-0">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="pq-client pq-60">
-                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="6" data-lap_num="5" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false"
+                            data-desk_num="6" data-lap_num="5" data-tab_num="3" data-mob_num="1" data-mob_sm="1"
+                            data-autoplay="true" data-loop="true" data-margin="30">
                             <div class="item">
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
-                                        <img class="pq-client-img" src="images/client/react1.png" alt="pq-client-img" >
-                                        <img class="pq-client-hover-img" src="images/client/react1.png" alt="pq-client-img">
+                                        <img class="pq-client-img" src="images/client/react1.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/react1.png"
+                                            alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
@@ -679,7 +539,8 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
                                         <img class="pq-client-img" src="images/client/vue1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/vue1.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/vue1.png"
+                                            alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
@@ -687,7 +548,8 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
                                         <img class="pq-client-img" src="images/client/php1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/php1.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/php1.png"
+                                            alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
@@ -695,15 +557,18 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
                                         <img class="pq-client-img" src="images/client/nodejs1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/nodejs1.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/nodejs1.png"
+                                            alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
-                                        <img class="pq-client-img" src="images/client/javascript.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/javascript.png" alt="pq-client-img">
+                                        <img class="pq-client-img" src="images/client/javascript.png"
+                                            alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/javascript.png"
+                                            alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
@@ -711,7 +576,8 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.html">
                                         <img class="pq-client-img" src="images/client/python1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/python1.png" alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/python1.png"
+                                            alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
@@ -721,16 +587,17 @@
             </div>
         </div>
     </div>
-    <!--Client End-->
-   <!-- Why Us Start-->
-   <section class="whyus">
+    <section class="whyus">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
-                        <span class="pq-section-sub-title"># why choose us</span>
-                        <h5 class="pq-section-title" id="service" data-high_text="Services" data-title_text="We Run All Kinds Of Services" data-rough_color="#fd4a18" data-rough_type="underline">We Run All Kinds Of Services</h5>
-                        <p class="pq-section-descrition">Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <h5 class="pq-section-title" id="service" data-high_text="Services"
+                            data-title_text="We Provide Every Type Of Service" data-rough_color="#ffdf40"
+                            data-rough_type="underline">We Provide Every Type Of Service</h5>
+                        <p class="pq-section-descrition">Lorem Ipsum is simply dummy It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -740,7 +607,8 @@
                         <div class="pq-fancy-media"><i class="flaticon-monitor-screen"></i></div>
                         <div class="pq-fancybox-info">
                             <h5 class="pq-fancy-box-title">High Quality Hardware</h5>
-                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered
+                                alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -756,7 +624,8 @@
                         <div class="pq-fancy-media"><i class="flaticon-marketing"></i></div>
                         <div class="pq-fancybox-info">
                             <h5 class="pq-fancy-box-title">Dedicated 24\7 Support</h5>
-                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered
+                                alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -772,7 +641,8 @@
                         <div class="pq-fancy-media"><i class="flaticon-call-center"></i></div>
                         <div class="pq-fancybox-info">
                             <h5 class="pq-fancy-box-title"> Money-back Guarantee</h5>
-                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered
+                                alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -788,7 +658,8 @@
                         <div class="pq-fancy-media"><i class=" flaticon-laptop"></i></div>
                         <div class="pq-fancybox-info">
                             <h5 class="pq-fancy-box-title">Agile and Fast Working </h5>
-                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered
+                                alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="contact-us.php">
@@ -798,14 +669,15 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="pq-fancy-box pq-fancybox-1">
                         <div class="pq-fancy-media"><i class=" flaticon-html"></i></div>
                         <div class="pq-fancybox-info">
                             <h5 class="pq-fancy-box-title">Some Apps are Free</h5>
-                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered
+                                alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="app-development.html">
@@ -821,7 +693,8 @@
                         <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
                         <div class="pq-fancybox-info">
                             <h4 class="pq-fancy-box-title">High Level of Usability</h4>
-                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered alteration in…</p>
+                            <p>There are many variaons of passages Lorem Ipsum available, but majority have suffered
+                                alteration in…</p>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button pq-btn-link" href="product-design.html">
@@ -833,14 +706,12 @@
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <p class="mb-0 fw-bolder">Success Your Technology. <a href="main-home.html" class="pq-text-primary">Take A Challenge!</a></p>
+                    <p class="mb-0 fw-bolder">Success Your Technology. <a href="main-home.html"
+                            class="pq-text-primary">Take A Challenge!</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!--Why US End -->
-
-    <!--Pricing plan Start-->
     <section class="pricing-plan pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
         <div class="container">
             <div class="row justify-content-center">
@@ -854,127 +725,151 @@
                             1500s.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="pq-pricebox pq-pricebox-3 text-center">
                         <div class="pq-price-detail">
                             <div class="pq-price-title">
-                                <span> Beginner Plan </span>
+                                <span class="fw-bold"> Front-end Web Development</span>
                             </div>
-                            <div class="pq-price">
-                                <h2>$29.99</h2>
-                            </div>
-                            <div class="pq-price-package"> <span>Monthly</span></div>
                             <div class="pq-list-content">
                                 <ul class="pq-list-info ">
                                     <li class="">
-                                        <span>30 Days Trial Features</span>
+                                        <h6 style="color:#ffdf40;" class="mb-2">Version 1</h6>
+                                        <span>HTML, CSS, JAVASCRIPT, 5 Projects</span><br>
+                                        <span>8 weeks</span><br>
+                                        <small class="fw-bold">#120,000</small>
                                     </li>
                                     <li class="">
-                                        <span>Synced To Cloud Database</span>
-                                    </li>
-                                    <li class="active">
-                                        <del>Easy Website Builder</del>
-                                    </li>
-                                    <li class="">
-                                        <span>10 Hours Of Support</span>
-                                    </li>
-                                    <li class="active">
-                                        <del>Social Media Integration</del>
+                                        <h6 style="color:#ffdf40;" class="mb-2">Version 2</h6>
+                                        <span>HTML, CSS, JAVASCRIPT<br>BOOTSTRAP,JQUERY, 10 Projects</span><br>
+                                        <span>12 weeks</span><br>
+                                        <small class="fw-bold">#200,000</small>
                                     </li>
                                     <li class="">
-                                        <span>Unlimited Features</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="pq-btn-container">
-                                <div class="pq-button-block">
-                                    <a class="pq-button pq-bg-dark" href="pricing-plan.html">
-                                        <span class="pq-button-text pq-text-white">Buy Now</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 mt-4 mt-md-0">
-                    <div class="pq-pricebox pq-pricebox-3 text-center active">
-                        <div class="pq-price-detail">
-                            <div class="pq-price-title">
-                                <span> Premium Plan </span>
-                            </div>
-                            <div class="pq-price">
-                                <h2>$59.99</h2>
-                            </div>
-                            <div class="pq-price-package"> <span>Monthly </span></div>
-                            <div class="pq-list-content">
-                                <ul class="pq-list-info ">
-                                    <li class="">
-                                        <span>30 Days Trial Features</span>
-                                    </li>
-                                    <li class="active">
-                                        <del>Synced To Cloud Database</del>
-                                    </li>
-                                    <li class="">
-                                        <span>Easy Website Builder</span>
-                                    </li>
-                                    <li class="active">
-                                        <del>10 Hours Of Support</del>
-                                    </li>
-                                    <li class="">
-                                        <span>Social Media Integration</span>
-                                    </li>
-                                    <li class="">
-                                        <span>Unlimited Features</span>
+                                        <h6 style="color:#ffdf40;" class="mb-2">Version 3</h6>
+                                        <span>HTML, CSS, JAVASCRIPT<br>BOOTSTRAP,JQUERY, React/Vue <br>20
+                                            Projects</span><br>
+                                        <span>16 weeks</span><br>
+                                        <small class="fw-bold">#400,000</small>
                                     </li>
                                 </ul>
                             </div>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
                                     <a class="pq-button" href="pricing-plan.html">
-                                        <span class="pq-button-text">Buy Now</span>
+                                        <span class="pq-button-text pq-text-white">Start Now</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 mt-4 mt-xl-0">
+                <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="pq-pricebox pq-pricebox-3 text-center">
                         <div class="pq-price-detail">
                             <div class="pq-price-title">
-                                <span> Standard Plan </span>
+                                <span class="fw-bold"> Back-End Web Development</span>
                             </div>
-                            <div class="pq-price">
-                                <h2>$99.99</h2>
-                            </div>
-                            <div class="pq-price-package"> <span>Monthly</span></div>
                             <div class="pq-list-content">
-                                <ul class="pq-list-info ">
-                                    <li class="active">
-                                        <del>30 Days Trial Features</del>
+                                <ul class="pq-list-info">
+                                    <li class="">
+                                        <h6 style="color:#ffdf40;" class="mb-2">Version 1</h6>
+                                        <span>PHP, MySQL, JAVASCRIPT, Hosting</span><br>
+                                        <span>8 weeks</span><br>
+                                        <small class="fw-bold">#250,000</small>
                                     </li>
                                     <li class="">
-                                        <span>Synced To Cloud Database</span>
-                                    </li>
-                                    <li class="">
-                                        <span>Easy Website Builder</span>
-                                    </li>
-                                    <li class="">
-                                        <span>10 Hours Of Support</span>
-                                    </li>
-                                    <li class="">
-                                        <span>Social Media Integration</span>
-                                    </li>
-                                    <li class="active">
-                                        <del>Unlimited Features</del>
+                                        <h6 style="color:#ffdf40;" class="mb-2">Version 2</h6>
+                                        <span>PHP, MySQL, JAVASCRIPT, Hosting, Node.js, Mongo DB, API,
+                                            Security</span><br>
+                                        <span>12 weeks</span><br>
+                                        <small class="fw-bold">#500,000</small>
                                     </li>
                                 </ul>
                             </div>
                             <div class="pq-btn-container">
                                 <div class="pq-button-block">
-                                    <a class="pq-button pq-bg-dark" href="pricing-plan.html">
-                                        <span class="pq-button-text pq-text-white">Buy Now</span>
+                                    <a class="pq-button" href="pricing-plan.html">
+                                        <span class="pq-button-text pq-text-white">Start Now</span>
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="pq-pricebox pq-pricebox-3 text-center">
+                        <div class="pq-price-detail">
+                            <div class="pq-price-title">
+                                <span class="fw-bold">Data Analysis</span>
+                            </div>
+                            <div class="pq-list-content">
+                                <ul class="pq-list-info ">
+                                    <li class="">
+                                        <span>Python, SQL, TABLEU, POWER BI</span><br>
+                                        <span>12 weeks</span><br>
+                                        <small class="fw-bold">#350,000</small>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pq-btn-container">
+                                <div class="pq-button-block">
+                                    <a class="pq-button" href="pricing-plan.html">
+                                        <span class="pq-button-text pq-text-white">Start Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3 justify-content-center">
+                    <div class="col-xl-3 col-lg-6 col-md-6 ms-4">
+                        <div class="pq-pricebox pq-pricebox-3 text-center">
+                            <div class="pq-price-detail">
+                                <div class="pq-price-title">
+                                    <span class="fw-bold">UI/ UIX Design</span>
+                                </div>
+                                <div class="pq-list-content">
+                                    <ul class="pq-list-info ">
+                                        <li class="">
+                                            <span>USER RESEARCH, WIRE-FRAMING, PROTOTYPING, USER TETSTING etc</span><br>
+                                            <span>12 weeks</span><br>
+                                            <small class="fw-bold">#180,000</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button" href="pricing-plan.html">
+                                            <span class="pq-button-text pq-text-white">Start Now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="pq-pricebox pq-pricebox-3 text-center">
+                            <div class="pq-price-detail">
+                                <div class="pq-price-title">
+                                    <span class="fw-bold">Python</span>
+                                </div>
+                                <div class="pq-list-content">
+                                    <ul class="pq-list-info ">
+                                        <li class="">
+                                            <span>NUMPY, PANDAS, SCIPY, DJANGO, PYTHON MATPOLTLIB</span><br>
+                                            <!-- <span>4 weeks</span><br> -->
+                                            <small class="fw-bold">#500,000</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pq-btn-container">
+                                    <div class="pq-button-block">
+                                        <a class="pq-button" href="pricing-plan.html">
+                                            <span class="pq-button-text pq-text-white">Start Now</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -983,9 +878,6 @@
             </div>
         </div>
     </section>
-    <!--Pricing plan End-->
-
-    <!--Choose plan Start-->
     <section class="choose-plan py-0">
         <div class="container">
             <div class="row align-items-center pq-bg-dark pq-bg-img-2 pq-90 br-5">
@@ -998,7 +890,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="button-align">
-                        <a href="contact-us.html" class="pq-button">
+                        <a href="contact-us.php" class="pq-button">
                             <div class="pq-button-block">
                                 <span class="pq-button-text">Contact Us</span>
                             </div>
@@ -1008,10 +900,6 @@
             </div>
         </div>
     </section>
-    <!--Choose plan End-->
-
-   
-    <!--Team Start-->
     <div class="p-0">
         <div class="container-fluid">
             <div class="row">
@@ -1021,18 +909,7 @@
             </div>
         </div>
     </div>
-    <!--Team End-->
-
-    <!--Footer Start-->
-    <?php include "component/footer.php"?>
-    <!--Footer End-->
-
-    <!--Back to top Start-->
-    <div id="back-to-top">
-        <a class="top" id="#top" href="home-modern.html#"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
-    <!--Back to top End-->
-
+    <?php include "component/footer.php" ?>
     <!--Jquery js-->
     <script src="js/jquery.min.js"></script>
     <!--Bootstrap js-->
@@ -1059,10 +936,10 @@
     <script src="js/rough-custom.js"></script>
     <script src="js/custom.js"></script>
     <script>
-        $(document).ready(function() {
-            var currentYear = new Date().getFullYear();
-            $("#currentYear").text(currentYear);
-        });
+    $(document).ready(function() {
+        var currentYear = new Date().getFullYear();
+        $("#currentYear").text(currentYear);
+    });
     </script>
 </body>
 

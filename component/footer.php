@@ -124,8 +124,6 @@
         </div>
     </div>
 </footer>
-<!-- <i class="ti-location-pin"></i>
- <i class="ti-mobile"></i>
- <i class="ti-email"></i>
--->
-<i class="fa-brands fa-x-twitter"></i>
+<div id="back-to-top">
+    <a class="top" id="#top" href="#"> <i class="ion-ios-arrow-up"></i> </a>
+</div>

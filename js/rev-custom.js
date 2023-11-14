@@ -91,10 +91,11 @@ function revinit_revslider141() {
                     },
                     bullets: {
                         enable: true,
-                        tmp: "<span class=\"tp-bullet-title\">{{title}}</span>",
-                        style: "ares",
+                        tmp: "<span class=\"tp-bullet-title\"></span>",
+                        style: "",
                         hide_over: "1499px",
                         v_offset: 15
+                        
                     }
                 },
                 fallbacks: {
