@@ -91,7 +91,41 @@ Moz Selection
 	color: #fff;
 }
 
+.pq-pricebox {
+	height: 800px!important; /* Set your desired fixed height here */
+	overflow: hidden!important; /* Optional: hides content that overflows the fixed height */
+  }
 
+  /* Additional styling for better appearance (adjust as needed) */
+  .pq-price-detail {
+	display: flex!important;
+	flex-direction: column!important;
+	height: 100%!important;
+	justify-content: space-between!important;
+  }
+.h-500 img{
+	height:100px ;
+	width: 100px !important;
+}
+  .pq-price-title {
+	margin-bottom: 10px!important;
+  }
+
+  .pq-list-info li {
+	list-style: none!important;
+	margin-bottom: 15px!important;
+  }
+
+  .pq-btn-container {
+	margin-top: 10px!important;
+  }
+  section.close{
+	position: relative!important;
+    padding: 10px 0px!important;
+  }
+  #additionalContent{
+	display: none;
+  }
 /*================================================ 
     General
 ================================================*/

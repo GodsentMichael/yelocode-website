@@ -17,13 +17,13 @@
                                         <a href="services.php">Services</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="about-us.html">About Us</a>
+                                        <a href="about-us.php">About Us</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="portfolio.html">Portfolio</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="contact-us.html">Contact Us</a>
+                                        <a href="contact-us.php">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
