@@ -523,24 +523,20 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="pq-client pq-60">
-                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false"
-                            data-desk_num="6" data-lap_num="5" data-tab_num="3" data-mob_num="1" data-mob_sm="1"
-                            data-autoplay="true" data-loop="true" data-margin="30">
+                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="6" data-lap_num="3" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                             <div class="item">
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
-                                        <img class="pq-client-img" src="images/client/react1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/react1.png"
-                                            alt="pq-client-img">
+                                        <img class="pq-client-img" src="images/client/react1.png" alt="pq-client-img" style="width: 80px;">
+                                        <img class="pq-client-hover-img" src="images/client/react1.png" alt="pq-client-img" style="width: 80px;">
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
-                                        <img class="pq-client-img" src="images/client/vue1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/vue1.png"
-                                            alt="pq-client-img">
+                                        <img class="pq-client-img" src="images/client/vue1.png" alt="pq-client-img" style="width: 80px;">
+                                        <img class="pq-client-hover-img" src="images/client/vue1.png" alt="pq-client-img" style="width: 80px;">
                                     </a>
                                 </div>
                             </div>
@@ -548,8 +544,7 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
                                         <img class="pq-client-img" src="images/client/php1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/php1.png"
-                                            alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/php1.png" alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
@@ -557,18 +552,15 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
                                         <img class="pq-client-img" src="images/client/nodejs1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/nodejs1.png"
-                                            alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/nodejs1.png" alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.php">
-                                        <img class="pq-client-img" src="images/client/javascript.png"
-                                            alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/javascript.png"
-                                            alt="pq-client-img">
+                                        <img class="pq-client-img" src="images/client/javascript.png" alt="pq-client-img" style="width: 60px;">
+                                        <img class="pq-client-hover-img" src="images/client/javascript.png" alt="pq-client-img" style="width: 60px;">
                                     </a>
                                 </div>
                             </div>
@@ -576,8 +568,7 @@
                                 <div class="pq-clientbox-1">
                                     <a href="contact-us.html">
                                         <img class="pq-client-img" src="images/client/python1.png" alt="pq-client-img">
-                                        <img class="pq-client-hover-img" src="images/client/python1.png"
-                                            alt="pq-client-img">
+                                        <img class="pq-client-hover-img" src="images/client/python1.png" alt="pq-client-img">
                                     </a>
                                 </div>
                             </div>
