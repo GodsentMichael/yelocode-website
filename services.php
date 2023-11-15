@@ -150,7 +150,7 @@
                             <div class="tab-pane fade show  active" id="nav-0" role="tabpanel" aria-labelledby="nav-home-0">
                                 <div class="row align-items-center">
                                     <div class="col-lg-6">
-                                        <img src="images/client/ifeanyi.jpeg" alt="seo-image">
+                                        <img src="images/client/developers3.JPG" alt="seo-image" style="height: 70vh;">
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="pq-tab-info">
@@ -348,7 +348,7 @@
                         <p>There are many web apps and websites that crash just when the users are beginning to enjoy the services. This happens due to problematic cloud hosting services, but with us, you don't have to be afraid of that.</p>
                         <div class="pq-btn-container">
                             <div class="pq-button-block">
-                                <a class="pq-button pq-btn-link" href="app-development.html">
+                                <a class="pq-button pq-btn-link" href="contact-us.php">
                                     <span class="text">Reach Out</span>
                                 </a>
                             </div>
@@ -364,7 +364,7 @@
                         <p>Knowing when to use a relational or non-relational database for a project is one key to successful projects. Here at Yelocode Systems we analyse and use the project-specific database while managing it after the project is delvered.</p>
                         <div class="pq-btn-container">
                             <div class="pq-button-block">
-                                <a class="pq-button pq-btn-link" href="product-design.html">
+                                <a class="pq-button pq-btn-link" href="contact-us.php">
                                     <span class="text">Reach Out</span>
                                 </a>
                             </div>
@@ -398,7 +398,7 @@
                         </div>
                         <div class="pq-process-info">
                             <h4 class="pq-process-title">Reach Out</h4>
-                            <p class="pq-process-description">Send us an email or contact us through the avaialable options in the <a href="contact-us.php">contact-us page</a> </p>
+                            <p class="pq-process-description">Send us an email or contact us through the avaialable options in the <a href="contact-us.php">contact-us page.</a> </p>
                         </div>
                     </div>
                 </div>
@@ -494,6 +494,8 @@
             </div>
         </div>
     </div>
+
+    
     <!--Footer Start-->
     <?php include "component/footer.php" ?>
     <!--Footer End-->
