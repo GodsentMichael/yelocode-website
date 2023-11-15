@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
     <?php include "component/style.php" ?>
@@ -20,9 +20,9 @@
                         </rs-layer>
                         <rs-layer id="slider-14-slide-41-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,65px,41px,-68px;y:m,m,t,m;yo:-50px,-41px,184px,-18px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:11;font-family:Jost;">We Provide IT <br> & Business Solutions
                         </rs-layer>
-                        <a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-271px,-156px;y:m;yo:160px,140px,83px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#ffdf40;">Read More
+                        <a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-271px,-156px;y:m;yo:160px,140px,83px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#ffdf40;">Read More
                         </a>
-                        <a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:232px,277px,-100px,-11px;y:m;yo:159px,140px,85px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
+                        <a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:232px,277px,-100px,-11px;y:m;yo:159px,140px,85px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
                         </a>
                     </rs-slide>
                     <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
@@ -32,9 +32,9 @@
                         </rs-layer>
                         <rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:11;font-family:Jost;">Our Agency Provide <br> Best IT Solutions
                         </rs-layer>
-                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#ffdf40;">Read More
+                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#ffdf40;">Read More
                         </a>
-                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
+                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
                         </a>
                     </rs-slide>
                     <rs-slide data-key="rs-45" data-title="Slide" data-thumb="rev/assets/banner5-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
@@ -44,9 +44,9 @@
                         </rs-layer>
                         <rs-layer id="slider-14-slide-45-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,72px,55px,-83px;y:m,m,t,m;yo:-54px,-41px,186px,-22px;" data-text="w:normal;s:72,72,40,30;l:80,80,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:11;font-family:Jost;">Keep Secure Best <br> It Solution
                         </rs-layer>
-                        <a id="slider-14-slide-45-layer-7" class="rs-layer rev-btn" href="about-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-267px,-151px;y:m;yo:150px,155px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#ffdf40;">Read More
+                        <a id="slider-14-slide-45-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-267px,-151px;y:m;yo:150px,155px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;" style="z-index:10;background-color:#ffdf40;">Read More
                         </a>
-                        <a id="slider-14-slide-45-layer-8" class="rs-layer rev-btn" href="contact-us.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:230px,279px,-99px,-6px;y:m;yo:150px,155px,80px,59px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
+                        <a id="slider-14-slide-45-layer-8" class="rs-layer rev-btn" href="contact-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:230px,279px,-99px,-6px;y:m;yo:150px,155px,80px,59px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;" style="z-index:8;background-color:#151515;">Contact Us
                         </a>
                     </rs-slide>
                 </rs-slides>
@@ -188,36 +188,36 @@
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  5 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
+                                    <a href="home-modern.php#">
                                         <img src="images/grid/1.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <h5><a href="portfolio-single.html">View Project</a></h5>
+                                    <h5><a href="portfolio-single.php">View Project</a></h5>
                                 </div>
                             </div>
                         </div>
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  5  8 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
+                                    <a href="home-modern.php#">
                                         <img src="images/grid/2.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <h5><a href="portfolio-single.html">View Project</a></h5>
+                                    <h5><a href="portfolio-single.php">View Project</a></h5>
                                 </div>
                             </div>
                         </div>
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  14  5 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
+                                    <a href="home-modern.php#">
                                         <img src="images/grid/3.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <h5><a href="portfolio-single.html"><Var>View Project</Var></a>
+                                    <h5><a href="portfolio-single.php"><Var>View Project</Var></a>
                                     </h5>
                                 </div>
                             </div>
@@ -225,12 +225,12 @@
                         <div class="pq-grid-item pq-filter-items pq-col-3  pq-crop-img  15  8 ">
                             <div class="pq-portfoliobox-2">
                                 <div class="pq-portfolio-img">
-                                    <a href="home-modern.html#">
+                                    <a href="home-modern.php#">
                                         <img src="images/grid/4.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="pq-portfolio-info">
-                                    <h5><a href="portfolio-single.html">View Project</a></h5>
+                                    <h5><a href="portfolio-single.php">View Project</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -288,7 +288,7 @@
                             </div>
                             <div class="item">
                                 <div class="pq-clientbox-1">
-                                    <a href="contact-us.html">
+                                    <a href="contact-us.php">
                                         <img class="pq-client-img" src="images/client/python1.png" alt="pq-client-img">
                                         <img class="pq-client-hover-img" src="images/client/python1.png" alt="pq-client-img">
                                     </a>
@@ -311,7 +311,7 @@
                         <h1 class="pq-imagebox-title">Get 15 Minutes Complimentary Zoom<br> Or Google Meet Session.</h1>
                         <div class="offer-time">
                             <span class="pq-time pq-text-white">Limited Time Offer.</span>
-                            <a href="contact-us.html" class="pq-link">
+                            <a href="contact-us.php" class="pq-link">
                                 <span class="pq-link-text">Contact Us</span>
                             </a>
                         </div>
@@ -356,7 +356,7 @@
                                 <div class="pq-fancy-media">
                                     <span class="mt-2">Version 1</span>
                                 </div>
-                                <p>HTML, CSS, JAVASCRIPT, 5 Projects</p>
+                                <p>php, CSS, JAVASCRIPT, 5 Projects</p>
                                 <p>8 weeks</p>
                                 <p>#120,000</p>
                             </div>
@@ -367,7 +367,7 @@
                                 <div class="pq-fancy-media">
                                     <span class="mt-2"> Version 2</span>
                                 </div>
-                                <p>HTML, CSS, JAVASCRIPT<br>BOOTSTRAP,JQUERY, 10 Projects</p>
+                                <p>php, CSS, JAVASCRIPT<br>BOOTSTRAP,JQUERY, 10 Projects</p>
                                 <p>12 weeks</p>
                                 <span>#200,000</span>
 
@@ -379,7 +379,7 @@
                                 <div class="pq-fancy-media">
                                     <span class="mt-2"> Version 3</span>
                                 </div>
-                                <p class="">HTML, CSS, JAVASCRIPT<br>BOOTSTRAP,JQUERY, React/Vue <br>20
+                                <p class="">php, CSS, JAVASCRIPT<br>BOOTSTRAP,JQUERY, React/Vue <br>20
                                     Projects
                                 </p>
                                 <span>16 weeks</span>
@@ -479,4 +479,4 @@
     </script>
 </body>
 
-</html>
+</php>
