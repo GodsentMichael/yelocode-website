@@ -21,7 +21,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
                         <span class="pq-section-sub-title">Our Model</span>
-                        <h5 class="pq-section-title pq-text-white" id="exponentially" data-high_text="Exponentially" data-title_text="We Help You Grow Your Business Exponentially" data-rough_color="#fd4a18" data-rough_type="underline">We Help You Grow Your Business Exponentially</h5>
+                        <h5 class="pq-section-title pq-text-white" id="exponentially" data-high_text="Exponentially" data-title_text="We Help You Grow Your Business Exponentially" data-rough_color="#ffdf40" data-rough_type="underline">We Help You Grow Your Business Exponentially</h5>
                         <p class="pq-section-description pq-text-white">Experience business growth like never before. At Yelocode Systems, we provide comprehensive IT solutions to propel your business to new heights. Our services are designed to enhance efficiency, streamline operations, and foster innovation, ensuring your success in the digital age.</p>
                     </div>
                     <div class="pq-progressbar-box pq-progressbar-style-1 ">
