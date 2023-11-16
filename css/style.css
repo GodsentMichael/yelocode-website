@@ -456,7 +456,7 @@ blockquote strong {
 	padding: 0;
 	display: inline-block;
 	width: 100%;
-	float: left;
+	/* float: left; */
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -597,13 +597,13 @@ blockquote strong {
 	margin-bottom: 30px;
 	display: inline-block;
 	width: 100%;
-	float: left;
+	/* float: left; */
 }
 
 .comment-respond .comment-form-author,
 .comment-respond .comment-form-email,
 .comment-respond .comment-form-url {
-	float: left;
+	/* float: left; */
 	width: 32.6%;
 	display: inline-block;
 	margin: 0 15px 30px 0;
@@ -617,7 +617,7 @@ blockquote strong {
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 0;
-	float: left;
+	/* float: left; */
 }
 
 .commentlist .comment-respond .comment-form-author,
@@ -874,7 +874,7 @@ Blog-sidebar
 	margin-bottom: 30px;
 	display: inline-block;
 	width: 100%;
-	float: left;
+	/* float: left; */
 	position: relative;
 	padding: 30px;
 	background: var(--white-color);
@@ -1141,7 +1141,7 @@ Blog-sidebar
 	font-size: 14px;
 	color: var(--primary-color);
 	line-height: 1;
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	width: 100%;
 	margin: 5px 0;
@@ -1526,7 +1526,7 @@ header#pq-header .pq-top-header .pq-header-social ul {
 header#pq-header .pq-top-header .pq-header-social ul li {
 	list-style: none;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -1576,7 +1576,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-nav li {
 	font-family: var(--title-fonts);
 	position: relative;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-right: 30px;
 	color: var(--dark-color);
 	line-height: 90px;
@@ -1860,7 +1860,7 @@ header#pq-header.pq-header-style-1 .pq-header-call a .pq-call-info {
 
 header#pq-header.pq-header-style-1 .pq-header-call a .pq-call-info span {
 	width: 100%;
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	color: var(--primary-color);
 	line-height: normal;
@@ -2081,7 +2081,7 @@ footer#pq-footer {
 	color: #cccccc;
 	display: inline-block;
 	width: 100%;
-	float: left;
+	/* float: left; */
 }
 
 footer#pq-footer {
@@ -2149,7 +2149,7 @@ footer#pq-footer .pq-footer-top .pq-footer-bottom-list .pq-footer-items i {
 
 footer#pq-footer .pq-footer-top .pq-footer-bottom-list .pq-footer-items h4 {
 	font-size: 24px;
-	float: left;
+	/* float: left; */
 	line-height: 32px;
 	width: 100%;
 	display: inline-block;
@@ -2254,7 +2254,7 @@ footer#pq-footer ul li .rss-date {
 	font-size: 14px;
 	color: var(--primary-color);
 	line-height: 1;
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	width: 100%;
 	margin: 5px 0;
@@ -2310,7 +2310,7 @@ footer#pq-footer .tagcloud .tag-cloud-link {
 	background: var(--primary-color);
 	margin: 0 10px 10px 0;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	padding: 2px 12px;
 	border-radius: 5px;
 	border: 1px solid var(--primary-color);
@@ -2513,7 +2513,7 @@ footer#pq-footer .pq-footer-style-1 .pq-copyright-footer .pq-footer-link li {
 	margin: 0 15px 0;
 	padding: 0;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 
 footer#pq-footer .pq-footer-style-1 .pq-copyright-footer .pq-footer-link li a {
@@ -2556,7 +2556,7 @@ footer#pq-footer .pq-footer-style-1 .pq-footer-top {
 	line-height: 20px !important;
 	text-transform: uppercase;
 	font-family: var(--title-fonts);
-	float: left;
+	/* float: left; */
 	width: 100%;
 	display: inline-block;
 	font-weight: 600;
@@ -2938,7 +2938,7 @@ Isotope Portfolio
 .pq-grid {
 	display: inline-block;
 	width: 100%;
-	float: left;
+	/* float: left; */
 	overflow: hidden;
 }
 
@@ -3015,7 +3015,7 @@ Isotope Portfolio
 
 .pq-porfolio-info .pq-info-list li {
 	list-style: none;
-	float: left;
+	/* float: left; */
 	margin: 0 0 15px;
 	padding: 0 0 15px;
 	border-bottom: 1px solid var(--grey-color);
@@ -3512,8 +3512,8 @@ Portfolio Box
 	display: inline-block;
 	width: 100%;
 	background-color: var(--white-color);
-	-webkit-border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
+	/* -webkit-border-bottom-right-radius: 5px; */
+	/* -webkit-border-bottom-left-radius: 5px; */
 	-moz-border-radius-bottomright: 5px;
 	-moz-border-radius-bottomleft: 5px;
 }
@@ -3960,7 +3960,7 @@ Fancy Box-Sliders
 	font-size: 60px;
 	line-height: 68px;
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	color: var(--dark-color);
 	opacity: 0.1;
 }
@@ -4143,7 +4143,7 @@ Fancy Box
 	font-size: 62px;
 	line-height: 70px;
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	color: var(--dark-color);
 	opacity: 0.1;
 }
@@ -4772,13 +4772,13 @@ Testimonial
 	width: 100px;
 	height: 100px;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-right: 20px;
 }
 
 .pq-testimonial.pq-owl-testimonial-1 .pq-owl-testimonial-style-1 .pq-testimonial-info h5 {
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	width: 100%;
 }
 
@@ -4789,7 +4789,7 @@ Testimonial
 	color: var(--primary-color);
 	display: inline-block;
 	margin-bottom: 5px;
-	float: left;
+	/* float: left; */
 	text-transform: uppercase;
 	font-family: var(--title-fonts);
 }
@@ -5009,7 +5009,7 @@ Testimonial
 	width: 60px;
 	height: 60px;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-right: 15px;
 }
 
@@ -5025,7 +5025,7 @@ Testimonial
 	color: var(--primary-color);
 	display: inline-block;
 	margin-bottom: 5px;
-	float: left;
+	/* float: left; */
 	text-transform: uppercase;
 	font-family: var(--title-fonts);
 }
@@ -5340,7 +5340,7 @@ Progressbar
 .pq-progressbar-style-1 .pq-progressbar-content {
 	margin-bottom: 30px;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	width: 100%;
 }
 
@@ -5371,7 +5371,7 @@ Progressbar
 	width: 100%;
 	padding: 0;
 	background: var(--grey-color);
-	float: left;
+	/* float: left; */
 	margin-top: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -5382,7 +5382,7 @@ Progressbar
 	height: 5px;
 	display: inline-block;
 	background: #ffdf30;
-	float: left;
+	/* float: left; */
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
