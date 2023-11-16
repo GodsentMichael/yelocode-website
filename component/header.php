@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.php">
-                            <img class="img-fluid logo" src="images/logos/yelocode_logo.jpeg" alt="techtrix">
+                            <img class="img-fluid logo" src="images/logos/yelocode_logo.jpeg" alt="yelocode-logo">
                         </a>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <div id="pq-menu-contain" class="pq-menu-contain">

@@ -92,27 +92,12 @@
             </div>
         </div>
     </section>
+  
+
     <div class="map p-0">
         <div class="pq-bg-map">
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="2048" height="401" id="gmap_canvas" src="https://maps.google.com/maps?q=elekahia, townhall&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 401px;
-                            width: 2048px;
-                        }
-                    </style><a href="https://embedgooglemap.2yu.co">html embed google map</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 401px;
-                            width: 2048px;
-                        }
-                    </style>
-                </div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="2048" height="401" id="gmap_canvas" src="https://maps.google.com/maps?q=elekahia, townhall&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:401px;width:2048px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:401px;width:2048px;}</style>
             </div>
         </div>
     </div>

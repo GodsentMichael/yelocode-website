@@ -1,22 +1,19 @@
 <footer id="pq-footer" class="style-1">
     <div class="pq-footer-style-1">
         <div class="pq-footer-top">
-            <!-- footer top list  -->
-
-            <!-- footer top list -->
+ 
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-xl-3 col-md-6">
                         <div class="widget">
-                            <img src="images/logos/logo-yelo.png" class="pq-footer-logo" alt="gym-footer-logo">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered.</p>
+                            <img src="images/logos/logo-yelo.png" class="pq-footer-logo" alt="yelocode-footer-logo">
+                            <p>Rendering IT/Tech services as well as business solutions within and outside Port Harcourt.</p>
                             <div class="pq-footer-social">
                                 <ul>
-                                    <li><a href="home-modern.html#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="home-modern.html#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="home-modern.html#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="home-modern.html#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <li><a href="index.php#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="index.php#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="index.php#"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="index.php#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                                 <style>
                                                     svg {
                                                         fill: #ffffff
@@ -60,16 +57,16 @@
                             <div class="menu-useful-link-container">
                                 <ul id="menu-usefull-link" class="menu">
                                     <li>
-                                        <a href="home-modern.html#">Facebook</a>
+                                        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fyelocodesys%3Fmibextid%3DZbWKwL&e=AT3bCle2A63XuSN2B9a53Ea9dRQi9CSG0hxq8dNy8mGTpLB67hAA1tPtjujrI6S-TTrGkXYv1N_90J5RPE_XKrZZ1saO3lLsp8zhcbg">Facebook</a>
                                     </li>
                                     <li>
-                                        <a href="home-modern.html#">Instagram</a>
+                                        <a href="https://www.instagram.com/yelocodesystems/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
                                     </li>
                                     <li>
-                                        <a href="home-modern.html#">Whatsapp</a>
+                                        <a href="https://wa.me/2349162865693?text=Hello%2C%20welcome%20to%20Yelocode%20Systems%20ltd.%20An%20IT%20Solutions%20firm%20based%20in%20Port%20Harcourt%2C%20how%20can%20we%20be%20of%20help%3F">Whatsapp</a>
                                     </li>
                                     <li>
-                                        <a href="home-modern.html#">Twitter</a>
+                                        <a href="https://twitter.com/yelocode?lang=en">Twitter</a>
                                     </li>
                                 </ul>
                             </div>
@@ -112,13 +109,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <span class="pq-copyright"><a target="_blank" href="home-modern.html#"> Copyright <span id="currentYear"></span> <span style="color:#ffdf40; font-weight:bold;">Yelocode
+                        <span class="pq-copyright"><a target="_blank" href="index.php#"> Copyright <span id="currentYear"></span> <span style="color:#ffdf40; font-weight:bold;">Yelocode
                                     Systems</span>
                                 All Rights
                                 Reserved.</a></span>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                    </div>
+                    <!-- <div class="col-lg-6 col-md-6">
+                    </div> -->
                 </div>
             </div>
         </div>
