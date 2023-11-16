@@ -11,7 +11,6 @@
 
     <?php include_once "component/header.php" ?>
 
-    <!--Contacts & Forms Start-->
     <section class="contact-form">
         <div class="container">
             <div class="row g-0 align-items-center">
@@ -101,37 +100,36 @@
             </div>
         </div>
     </section>
-    <!--Contacts & Forms End-->
+  
 
-    <!--Map Start-->
     <div class="map p-0">
         <div class="pq-bg-map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="2048" height="401" id="gmap_canvas" src="https://maps.google.com/maps?q=elekahia, townhall&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:401px;width:2048px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:401px;width:2048px;}</style></div></div>
-</div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="2048" height="401" id="gmap_canvas" src="https://maps.google.com/maps?q=elekahia, townhall&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:401px;width:2048px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:401px;width:2048px;}</style>
+            </div>
+        </div>
     </div>
-    <!--Map ENd-->
 
     <?php include_once "component/footer.php" ?>
 
-    <!--Back to top Start-->
     <div id="back-to-top">
-        <a class="top" id="#top" href="contact-us.html#"> <i class="ion-ios-arrow-up"></i> </a>
+        <a class="top" id="#top" href="contact-us.php#"> <i class="ion-ios-arrow-up"></i> </a>
     </div>
-    <!--Back to top End-->
+   
 
-    <!--Jquery js-->
+ 
     <script src="js/jquery.min.js"></script>
-    <!--Bootstrap js-->
+  
     <script src="js/bootstrap.min.js"></script>
-    <!--Isotope js-->
+    
     <script src="js/isotope.pkgd.min.js"></script>
-    <!--Counter js -->
+ 
     <script src="js/jquery.countTo.min.js"></script>
-    <!--Magnefic Popup js -->
+   
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <!--Animation js -->
+ 
     <script src="js/wow.min.js"></script>
-    <!--Custom js-->
+   
     <script src="js/rough-script.js"></script>
     <script src="js/rough-notation.iife.js"></script>
     <script src="js/rough-custom.js"></script>
