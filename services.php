@@ -7,14 +7,8 @@
 
 <body>
 
-    <!-- Loading Start-->
     <?php include "component/page_loader.php" ?>
-    <!--Loading End -->
-
-    <!--Header Start-->
     <?php include "component/header.php" ?>
-    <!--Header End-->
-
     <section class="benefits pq-bg-dark pq-bg-img-2">
         <div class="container">
             <div class="row">
@@ -55,8 +49,6 @@
     </section>
 
     <br>
-
-    <!-- <section class="goals"> -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -84,13 +76,12 @@
                 <div class="pq-icon-box pq-style-2">
                     <div class="pq-icon-box-icon">
                         <span class="pq-icon">
-                            <!-- <i class="flaticon-laptop"></i> -->
                             <img src="images/client/computer-literacy1.PNG" alt="" style="height: 80px;">
                         </span>
                     </div>
                     <div class="pq-icon-box-content">
-                    <h4 class="pq-icon-box-title">Software Development Classes</h4>
-<p class="pq-icon-box-description">Embark on a comprehensive software development journey with our classes, which are beginner friendly. We offer courses on frontend, backend, cyber-security.</p>
+                        <h4 class="pq-icon-box-title">Software Development Classes</h4>
+                        <p class="pq-icon-box-description">Embark on a comprehensive software development journey with our classes, which are beginner friendly. We offer courses on frontend, backend, cyber-security.</p>
                     </div>
                 </div>
             </div>
@@ -124,14 +115,12 @@
 
         </div>
     </div>
-    <!-- </section> -->
 
     <section class="service pb-3 pq-pt-200">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="pq-section pq-style-1 text-center">
-                        <!-- <span class="pq-section-sub-title">our services</span> -->
                         <h5 class="pq-section-title" id="services" data-high_text="Services" data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18" data-rough_type="underline">Our Software Development Services</h5>
                     </div>
                 </div>
@@ -495,27 +484,16 @@
         </div>
     </div>
 
-    
-    <!--Footer Start-->
+
     <?php include "component/footer.php" ?>
-    <!--Footer End-->
-    <!--Jquery js-->
     <script src="js/jquery.min.js"></script>
-    <!--Bootstrap js-->
     <script src="js/bootstrap.min.js"></script>
-    <!--Owl Carousel js-->
     <script src="js/owl.carousel.min.js"></script>
-    <!--Progressbar js-->
     <script src="js/progressbar.js"></script>
-    <!--Isotope js-->
     <script src="js/isotope.pkgd.min.js"></script>
-    <!--Counter js -->
     <script src="js/jquery.countTo.min.js"></script>
-    <!--Magnefic Popup js -->
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <!--Animation js -->
     <script src="js/wow.min.js"></script>
-    <!--Custom js-->
     <script src="js/rough-script.js"></script>
     <script src="js/rough-notation.iife.js"></script>
     <script src="js/rough-custom.js"></script>

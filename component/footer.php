@@ -127,3 +127,9 @@
 <div id="back-to-top">
     <a class="top" id="#top" href="#"> <i class="ion-ios-arrow-up"></i> </a>
 </div>
+<script>
+                $(document).ready(function() {
+                    var currentYear = new Date().getFullYear();
+                    $("#currentYear").text(currentYear);
+                });
+            </script>

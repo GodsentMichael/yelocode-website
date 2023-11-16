@@ -20,7 +20,7 @@
                                         <a href="about-us.php">About Us</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="portfolio.html">Portfolio</a>
+                                        <a href="portfolio.php">Portfolio</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="contact-us.php">Contact Us</a>
