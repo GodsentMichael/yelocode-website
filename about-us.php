@@ -15,14 +15,12 @@
             <div class="row align-items-end pq-mb-45">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional"
-                            data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#ffdf40"
-                            data-rough_type="underline">Our guiding ideals and corporate ethos</h5>
+                        <h5 class="pq-section-title pq-text-white" id="professional" data-high_text="Professional" data-title_text="We Deal With Aspects Professional IT Services" data-rough_color="#ffdf40" data-rough_type="underline">Our guiding ideals and corporate ethos</h5>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <p class="pq-section-description pq-text-white">At <span class="text-warning">Yelocode
-                            Solutions</span>, we embrace innovation,
+                            Systems</span>, we embrace innovation,
                         prioritize inclusivity, and foster a culture of integrity. Our commitment to excellence drives
                         us to deliver exceptional solutions, empowering positive global impact.</p>
                 </div>
@@ -136,13 +134,11 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title" id="business" data-high_text="Business"
-                            data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
+                        <h5 class="pq-section-title" id="business" data-high_text="Business" data-title_text="Achieving Outcomes For Digital Transformation" data-rough_color="#fd4a18" data-rough_type="underline">Achieving Outcomes For Digital Transformation</h5>
                         <p class="pq-section-description display-b">Nestled within the vibrant city of Port Harcourt,
                             Yelocode Systems Limited stands as a distinguished and registered IT training hub, renowned
-                            for its professional acumen and commitment to technological excellence. At Yelocode, we
-                            offer a comprehensive suite of IT solutions, encompassing the realms of web and mobile
+                            for its professional acumen and commitment to technological excellence. The C.E.O at Yelocode Systems, being saddled with a passion for tech solutions to modern day businesses , created the company
+                            in order to offer a comprehensive suite of IT solutions, encompassing the realms of web and mobile
                             development, internet services, and site hosting, catering to the diverse and dynamic needs
                             of modern businesses. Our expertise extends beyond mere services to include seamless network
                             and server installations, where our adept team ensures the establishment of robust and
@@ -268,9 +264,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="pq-section pq-style-1 text-left">
-                        <h5 class="pq-section-title" id="technology" data-high_text="Technology"
-                            data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Enhancing Business
+                        <h5 class="pq-section-title" id="technology" data-high_text="Technology" data-title_text="We Increasing Business Success With Technology" data-rough_color="#fd4a18" data-rough_type="underline">Enhancing Business
                             Achievement Through Technology</h5>
                         <p class="pq-section-description">Our IT management services go beyond making sure information
                             systems operate smoothly by providing careful oversight of hardware, software, and network
@@ -292,102 +286,149 @@
             </div>
         </div>
     </section>
-    <section class="pq-bg-grey pq-bg-img-1 pq-pb-220 exclusive">
+    <section class="our-team pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xl-12">
                     <div class="pq-section pq-style-1 text-center">
-                        <h5 class="pq-section-title" id="exclusive" data-high_text="Exclusive"
-                            data-title_text="Provide Exclusive Services" data-rough_color="#fd4a18"
-                            data-rough_type="underline">Provide Exclusive Services</h5>
-                        <p class="pq-section-description">Lorem Ipsum is simply dummy It is a long established
-                            fact that
-                            a reader will be distracted by the readable content of a page when looking at its
-                            layout.
-                        </p>
+                        <span class="pq-section-sub-title">expert team</span>
+                        <h5 class="pq-section-title">Meet Our Yelo-dev Team</h5>
                     </div>
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3"
-                        data-lap_num="2" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
-                        data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="pq-fancybox-boxslider fancyslider-1">
-                                <h4 class="pq-fancy-title">Mobile Devlopment</h4>
-                                <div class="pq-fancy-media"><i class=" flaticon-marketing"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the
-                                    majority have
-                                    suffered alteration in some</p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a class="pq-button pq-btn-link" href="services.html">
-                                            <span class="text">Read More</span>
-                                        </a>
+                    <div class="pq-team">
+                        <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="3" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+
+                            <div class="item">
+                                <div class="pq-teambox-1">
+                                    <div class="pq-team-img">
+                                        <img src="images/client/dave5.jpg" alt="team-image" >
+                                    </div>
+                                    <div class="pq-team-info">
+                                        <h5>David Jeremiah</h5>
+                                        <span class="pq-team-designation">Frontend Developer</span>
+                                        <div class="pq-team-social">
+                                            <ul>
+                                                <li><a href="https://www.facebook.com/borma.jeremiah"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="https://x.com/DavidJeremie3?s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                            <style>
+                                                                svg {
+                                                                    fill: #ffffff
+                                                                }
+                                                            </style>
+                                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li><a href="https://github.com/davis141"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-fancybox-boxslider fancyslider-1">
-                                <h4 class="pq-fancy-title">Greate Experienced</h4>
-                                <div class="pq-fancy-media"><i class=" flaticon-ecologic-light-bulb"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the
-                                    majority have
-                                    suffered alteration in some</p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a class="pq-button pq-btn-link" href="services.html">
-                                            <span class="text">Read More</span>
-                                        </a>
+                            <div class="item">
+                                <div class="pq-teambox-1">
+                                    <div class="pq-team-img">
+                                        <img src="images/client/godsent5.jpg" alt="team-image">
+                                    </div>
+                                    <div class="pq-team-info">
+                                        <h5>Godsent Michael</h5>
+                                        <span class="pq-team-designation">Fullstack Developer</span>
+                                        <div class="pq-team-social">
+                                            <ul>
+                                                <li><a href="https://web.facebook.com/godsentmichael.michael"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com/MichaelGodsent"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                            <style>
+                                                                svg {
+                                                                    fill: #ffffff
+                                                                }
+                                                            </style>
+                                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li><a href="https://www.linkedin.com/in/godsent-pauly-erobiri-b46a05123?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-fancybox-boxslider fancyslider-1">
-                                <h4 class="pq-fancy-title">It Consultant</h4>
-                                <div class="pq-fancy-media"><i class=" flaticon-user-interface"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the
-                                    majority have
-                                    suffered alteration in some
-                                </p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a class="pq-button pq-btn-link" href="services.html">
-                                            <span class="text">Read More</span>
-                                        </a>
+                            <div class="item">
+                                <div class="pq-teambox-1">
+                                    <div class="pq-team-img">
+                                        <img src="images/client//ifeanyi5.jpg" alt="team-image">
+                                    </div>
+                                    <div class="pq-team-info">
+                                        <h5>Akozor Ifeanyi Prince</h5>
+                                        <span class="pq-team-designation">Frontend Developer & Data Scientist</span>
+                                        <div class="pq-team-social">
+                                            <ul>
+                                                <li><a href="https://www.facebook.com/profile.php?id=100010934148896"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                            <style>
+                                                                svg {
+                                                                    fill: #ffffff
+                                                                }
+                                                            </style>
+                                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-fancybox-boxslider fancyslider-1">
-                                <h4 class="pq-fancy-title">Software Devlopment</h4>
-                                <div class="pq-fancy-media"><i class=" flaticon-call-center"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the
-                                    majority have
-                                    suffered alteration in some
-                                </p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a class="pq-button pq-btn-link" href="services.html">
-                                            <span class="text">Read More</span>
-                                        </a>
+                            <div class="item">
+                                <div class="pq-teambox-1">
+                                    <div class="pq-team-img">
+                                        <img src="images/client//nma4.JPG" alt="team-image" >
+                                    </div>
+                                    <div class="pq-team-info">
+                                        <h5>Chidinma Adumekwe</h5>
+                                        <span class="pq-team-designation">Frontend Developer & SEO Specialist</span>
+                                        <div class="pq-team-social">
+                                            <ul>
+                                                <li><a href="https://www.facebook.com/profile.php?id=100010934148896"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                            <style>
+                                                                svg {
+                                                                    fill: #ffffff
+                                                                }
+                                                            </style>
+                                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-fancybox-boxslider fancyslider-1">
-                                <h4 class="pq-fancy-title">Web Devlopment</h4>
-                                <div class="pq-fancy-media"><i class=" flaticon-data-analysis"></i></div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the
-                                    majority have
-                                    suffered alteration in some
-                                </p>
-                                <div class="pq-btn-container">
-                                    <div class="pq-button-block">
-                                        <a class="pq-button pq-btn-link" href="services.html">
-                                            <span class="text">Read More</span>
-                                        </a>
+                            <div class="item">
+                                <div class="pq-teambox-1">
+                                    <div class="pq-team-img">
+                                        <img src="images/client//new-man1.jpg" alt="team-image" >
+                                    </div>
+                                    <div class="pq-team-info">
+                                        <h5>Newman Cletus</h5>
+                                        <span class="pq-team-designation">Frontend Developer</span>
+                                        <div class="pq-team-social">
+                                            <ul>
+                                                <li><a href="https://www.facebook.com/profile.php?id=100010934148896"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                            <style>
+                                                                svg {
+                                                                    fill: #ffffff
+                                                                }
+                                                            </style>
+                                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -397,7 +438,8 @@
             </div>
         </div>
     </section>
-    <section class="counter pt-0 pb-0">
+
+    <section class="counter  pb-0">
         <div class="container pq-bg-dark rounded">
             <div class="row text-center pq-counter-60">
                 <div class="col-lg-3 col-md-6">
@@ -468,14 +510,22 @@
     <script src="js/rough-custom.js"></script>
     <script src="js/custom.js"></script>
     <script>
+
     $(document).ready(function() {
         $('#seeMoreBtn').on('click', function() {
             $('#additionalContent').toggle();
             $(this).text(function(i, text) {
                 return text === "See More" ? "See Less" : "See More";
+        $(document).ready(function() {
+            // Toggle the visibility of additional content when the button is clicked
+            $('#seeMoreBtn').on('click', function() {
+                $('#additionalContent').toggle();
+                $(this).text(function(i, text) {
+                    return text === "See More" ? "See Less" : "See More";
+                });
+
             });
         });
-    });
     </script>
 </body>
 
