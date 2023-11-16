@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
     <head>
         <?php include_once "component/style.php" ?>
@@ -145,4 +145,4 @@
         <script src="js/custom.js"></script>
     </body>
 
-</php>
+</html>
