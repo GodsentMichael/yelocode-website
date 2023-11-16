@@ -20,13 +20,15 @@
 <style>
     .offers {
         height: 249px !important;
-      
+
     }
-   .see-more{
-    cursor:pointer;
-   }
-   .second-sec li{
-    list-style-type: none;
-   }
+
+    .see-more {
+        cursor: pointer;
+    }
+
+    .second-sec li {
+        list-style-type: none;
+    }
 </style>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

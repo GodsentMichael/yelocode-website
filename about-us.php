@@ -308,7 +308,7 @@
                             <div class="item">
                                 <div class="pq-teambox-1">
                                     <div class="pq-team-img">
-                                        <img src="images/client/dave5.jpg" alt="team-image" >
+                                        <img src="images/client/dave5.jpg" alt="team-image">
                                     </div>
                                     <div class="pq-team-info">
                                         <h5>David Jeremiah</h5>
@@ -389,7 +389,7 @@
                             <div class="item">
                                 <div class="pq-teambox-1">
                                     <div class="pq-team-img">
-                                        <img src="images/client//nma4.JPG" alt="team-image" >
+                                        <img src="images/client//nma4.JPG" alt="team-image">
                                     </div>
                                     <div class="pq-team-info">
                                         <h5>Chidinma Adumekwe</h5>
@@ -416,7 +416,7 @@
                             <div class="item">
                                 <div class="pq-teambox-1">
                                     <div class="pq-team-img">
-                                        <img src="images/client//new-man1.jpg" alt="team-image" >
+                                        <img src="images/client//new-man1.jpg" alt="team-image">
                                     </div>
                                     <div class="pq-team-info">
                                         <h5>Newman Cletus</h5>
@@ -445,9 +445,9 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
-<section class="counter  pb-0">
+    <section class="counter  pb-0">
         <div class="container pq-bg-dark rounded">
             <div class="row text-center pq-counter-60">
                 <div class="col-lg-3 col-md-6">
@@ -510,18 +510,18 @@
 
 
 
-  
+
     <script src="js/bootstrap.min.js"></script>
-    
+
     <script src="js/owl.carousel.min.js"></script>
-   
+
     <script src="js/progressbar.js"></script>
-    
+
     <script src="js/isotope.pkgd.min.js"></script>
-   
+
     <script src="js/jquery.countTo.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-  
+
     <script src="js/wow.min.js"></script>
 
     <script src="js/rough-script.js"></script>
@@ -539,4 +539,5 @@
         });
     </script>
 </body>
+
 </html>

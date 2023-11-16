@@ -1,4 +1,5 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <?php include "component/style.php" ?>
 </head>
@@ -7,131 +8,50 @@
     <?php include "component/page_loader.php" ?>
 
     <?php include "component/header.php" ?>
-    
+
     <div class="banner py-0">
         <p class="rs-p-wp-fix"></p>
         <rs-module-wrap id="rev_slider_14_1_wrapper" data-alias="slider-2" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
             <rs-module id="rev_slider_14_1" data-version="6.3.2">
                 <rs-slides>
-                 
-                    <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg"
-                        data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
-                        <img src="images/client/class.jpg" title="banner4" width="1920" height="800"
-                            data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg"
-                            data-no-retina>
-                        <rs-layer id="slider-14-slide-46-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on"
-                            data-xy="xo:30px,65px,15px,9px;y:m;yo:58px,54px,10px,-34px;"
-                            data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f"
-                            data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            style="z-index:12;">
+
+                    <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
+                        <img src="images/client/class.jpg" title="banner4" width="1920" height="800" data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg" data-no-retina>
+                        <rs-layer id="slider-14-slide-46-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on" data-xy="xo:30px,65px,15px,9px;y:m;yo:58px,54px,10px,-34px;" data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" style="z-index:12;">
                         </rs-layer>
-                        <rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;"
-                            data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                          >     
+                        <rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;">
                         </rs-layer>
-                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self"
-                            data-type="button" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;"
-                            data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
-                            data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
-                            data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;"
-                            > 
+                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;">
                         </a>
                         <!-- #fd4a18 -->
-                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.php"
-                            target="_self" data-type="button" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;"
-                            data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
-                            data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
-                            data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;"
-                            data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;"
-                           > 
+                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;">
                         </a>
                     </rs-slide>
 
-                    <rs-slide data-key="rs-41" data-title="Slide" data-thumb="rev/assets/banner-50x100.jpg"
-                        data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
-                        <img src="images/client/landscape.jpg" title="banner" width="1920" height="800"
-                            data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg"
-                            data-no-retina>
-                        <rs-layer id="slider-14-slide-41-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on"
-                            data-xy="xo:30px,67px,15px,9px;y:m;yo:65px,58px,10px,-34px;"
-                            data-text="w:normal;s:18,16,12,7;l:30,24,18,11;" data-vbility="t,t,f,f"
-                            data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            >
+                    <rs-slide data-key="rs-41" data-title="Slide" data-thumb="rev/assets/banner-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
+                        <img src="images/client/landscape.jpg" title="banner" width="1920" height="800" data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg" data-no-retina>
+                        <rs-layer id="slider-14-slide-41-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on" data-xy="xo:30px,67px,15px,9px;y:m;yo:65px,58px,10px,-34px;" data-text="w:normal;s:18,16,12,7;l:30,24,18,11;" data-vbility="t,t,f,f" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;">
                         </rs-layer>
-                        <rs-layer id="slider-14-slide-41-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:30px,65px,41px,-68px;y:m,m,t,m;yo:-50px,-41px,184px,-18px;"
-                            data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            >
+                        <rs-layer id="slider-14-slide-41-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,65px,41px,-68px;y:m,m,t,m;yo:-50px,-41px,184px,-18px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;">
                         </rs-layer>
-                        <a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self"
-                            data-type="button" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:30px,65px,-271px,-156px;y:m;yo:160px,140px,83px,65px;"
-                            data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
-                            data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
-                            data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;"
-                            >
+                        <a id="slider-14-slide-41-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-271px,-156px;y:m;yo:160px,140px,83px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;">
                         </a>
-                        <a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.php"
-                            target="_self" data-type="button" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:232px,277px,-100px,-11px;y:m;yo:159px,140px,85px,65px;"
-                            data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
-                            data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
-                            data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;"
-                            data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;"
-                            >
+                        <a id="slider-14-slide-41-layer-8" class="rs-layer rev-btn" href="contact-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:232px,277px,-100px,-11px;y:m;yo:159px,140px,85px,65px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;">
                         </a>
                     </rs-slide>
 
-                    <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg"
-                        data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
-                        <img src="images/client/developers8.jpeg" title="banner4" width="1920" height="800"
-                            data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg"
-                            data-no-retina>
-                        <rs-layer id="slider-14-slide-46-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on"
-                            data-xy="xo:30px,65px,15px,9px;y:m;yo:58px,54px,10px,-34px;"
-                            data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f"
-                            data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                           >
+                    <rs-slide data-key="rs-46" data-title="Slide" data-thumb="rev/assets/banner4-50x100.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:1;">
+                        <img src="images/client/developers8.jpeg" title="banner4" width="1920" height="800" data-panzoom="d:10000;e:power0.in;ss:100%;se:100%;os:0px/0;" class="rev-slidebg" data-no-retina>
+                        <rs-layer id="slider-14-slide-46-layer-0" data-type="text" data-color="#616161" data-rsp_ch="on" data-xy="xo:30px,65px,15px,9px;y:m;yo:58px,54px,10px,-34px;" data-text="w:normal;s:18,18,13,8;l:30,30,22,13;" data-vbility="t,t,f,f" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;">
                         </rs-layer>
-                        <rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;"
-                            data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                           >
+                        <rs-layer id="slider-14-slide-46-layer-1" data-type="text" data-color="#151515" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:30px,64px,49px,-79px;y:m,m,t,m;yo:-54px,-41px,184px,-21px;" data-text="w:normal;s:72,60,40,30;l:80,68,48,38;fw:700;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;">
                         </rs-layer>
-                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self"
-                            data-type="button" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;"
-                            data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
-                            data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
-                            data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;"
-                            data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;"
-                           > 
+                        <a id="slider-14-slide-46-layer-7" class="rs-layer rev-btn" href="about-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:30px,65px,-274px,-165px;y:m;yo:155px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1300;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#151515;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:120%;">
                         </a>
-                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.php"
-                            target="_self" data-type="button" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;"
-                            data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;"
-                            data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;"
-                            data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;"
-                            data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;"
-                            data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;"
-                            >
+                        <a id="slider-14-slide-46-layer-8" class="rs-layer rev-btn" href="contact-us.php" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:233px,276px,-100px,-22px;y:m;yo:156px,138px,80px,60px;" data-text="w:normal;s:16,18,16,16;l:32,32,24,32;" data-dim="minh:0px,none,none,none;" data-padding="t:12,12,12,7;r:45,45,30,19;b:12,12,12,7;l:45,45,30,19;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:50,39,29,17;" data-frame_1="st:1500;sp:1000;" data-frame_999="o:0;st:w;" data-frame_hover="c:black;bgc:#ffdf40;bor:5px,5px,5px,5px;sp:100;e:power1.inOut;bri:100%;">
                         </a>
                     </rs-slide>
-                    
+
                 </rs-slides>
             </rs-module>
         </rs-module-wrap>
@@ -235,12 +155,12 @@
                         </p>
                     </div>
                     <div class="">
-                    <span class="d-block"><i class="ion ion-android-done-all text-warning me-2 "></i> We provide innovative and reliable technology solutions.</span>
-                    <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We create a culture of learning and growth.</span>
-                    <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We protect our customers' data and privacy.</span>
-                    <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We foster an inclusive and diverse workplace.</span>
-                    <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We make a positive impact on the world through technology.</span>
-                       
+                        <span class="d-block"><i class="ion ion-android-done-all text-warning me-2 "></i> We provide innovative and reliable technology solutions.</span>
+                        <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We create a culture of learning and growth.</span>
+                        <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We protect our customers' data and privacy.</span>
+                        <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We foster an inclusive and diverse workplace.</span>
+                        <span class="d-block"><i class="ion ion-android-done-all text-warning me-2"></i> We make a positive impact on the world through technology.</span>
+
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 mt-4 mt-lg-0">
@@ -251,7 +171,7 @@
             </div>
         </div>
     </section>
- 
+
     <div class="client pq-bg-dark py-0">
         <div class="container-fluid">
             <div class="row">
@@ -462,25 +382,25 @@
     <?php include "component/footer.php" ?>
 
     <script src="js/jquery.min.js"></script>
-   
+
     <script src="js/bootstrap.min.js"></script>
-  
+
     <script src="js/owl.carousel.min.js"></script>
-   
+
     <script src="js/progressbar.js"></script>
-   
+
     <script src="js/isotope.pkgd.min.js"></script>
-   
+
     <script src="js/jquery.countTo.min.js"></script>
 
     <script src="js/jquery.magnific-popup.min.js"></script>
-  
+
     <script src="js/wow.min.js"></script>
-   
+
     <script src="rev/js/rbtools.min.js"></script>
     <script src="rev/js/rs6.min.js"></script>
     <script src="js/rev-custom.js"></script>
-   
+
     <script src="js/rough-script.js"></script>
     <script src="js/rough-notation.iife.js"></script>
     <script src="js/rough-custom.js"></script>
