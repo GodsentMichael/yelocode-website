@@ -1,19 +1,21 @@
 <footer id="pq-footer" class="style-1">
     <div class="pq-footer-style-1">
         <div class="pq-footer-top">
- 
+
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-xl-3 col-md-6">
                         <div class="widget">
                             <img src="images/logos/logo-yelo.png" class="pq-footer-logo" alt="yelocode-footer-logo">
-                            <p>Rendering IT/Tech services as well as business solutions within and outside Port Harcourt.</p>
+                            <p>Rendering IT/Tech services as well as business solutions within and outside Port
+                                Harcourt.</p>
                             <div class="pq-footer-social">
                                 <ul>
                                     <li><a href="index.php#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="index.php#"><i class="fab fa-instagram"></i></a></li>
                                     <li><a href="index.php#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="index.php#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <li><a href="index.php#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                                 <style>
                                                     svg {
                                                         fill: #ffffff;
@@ -114,8 +116,6 @@
                                 All Rights
                                 Reserved.</a></span>
                     </div>
-                    <!-- <div class="col-lg-6 col-md-6">
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -125,8 +125,8 @@
     <a class="top" id="#top" href="#"> <i class="ion-ios-arrow-up"></i> </a>
 </div>
 <script>
-                $(document).ready(function() {
-                    var currentYear = new Date().getFullYear();
-                    $("#currentYear").text(currentYear);
-                });
-            </script>
+    $(document).ready(function() {
+        var currentYear = new Date().getFullYear();
+        $("#currentYear").text(currentYear);
+    });
+</script>
