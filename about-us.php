@@ -8,10 +8,7 @@
 <body>
 
     <?php include_once "component/page_loader.php" ?>
-
-    <!--Header Start-->
     <?php include_once "component/header.php" ?>
-    <!--Header End-->
     <section class="benefits pq-bg-dark pq-bg-img-2 pq-pb-220">
         <div class="container">
             <div class="row align-items-end pq-mb-45">
@@ -29,7 +26,6 @@
             </div>
         </div>
     </section>
-    <!--Benefits End-->
     <section class="py-0 pq-mt-220">
         <div class="container">
             <div class="row justify-content-center">
@@ -37,7 +33,6 @@
                     <div class="pq-fancy-box pq-fancybox-4">
                         <div class="pq-fancy-media">
                             <img src="images/font/5.jpg" alt="" srcset="">
-                            <!-- <h3 class="pq-fancy-box-title">01</h3> -->
                         </div>
                         <div class="pq-fancybox-info">
                             <h4 class="pq-fancy-box-sub-title">Diversity</h4>
@@ -62,7 +57,6 @@
                     <div class="pq-fancy-box pq-fancybox-4">
                         <div class="pq-fancy-media">
                             <img src="images/font/0.jpg" alt="" srcset="">
-                            <!-- <h3 class="pq-fancy-box-title">02</h3> -->
                         </div>
                         <div class="pq-fancybox-info">
                             <h4 class="pq-fancy-box-sub-title">Impact</h4>
@@ -87,7 +81,6 @@
                     <div class="pq-fancy-box pq-fancybox-4">
                         <div class="pq-fancy-media">
                             <img src="images/font/2.jpg" alt="" srcset="">
-                            <!-- <h3 class="pq-fancy-box-title">03</h3> -->
                         </div>
                         <div class="pq-fancybox-info">
                             <h4 class="pq-fancy-box-sub-title">Brand Loyalty</h4>
@@ -112,7 +105,6 @@
                     <div class="pq-fancy-box pq-fancybox-4">
                         <div class="pq-fancy-media">
                             <img src="images/font/7.jpg" alt="" srcset="">
-                            <!-- <h3 class="pq-fancy-box-title">03</h3> -->
                         </div>
                         <div class="pq-fancybox-info">
                             <h4 class="pq-fancy-box-sub-title">Authenticity</h4>
@@ -136,7 +128,6 @@
             </div>
         </div>
     </section>
-    <!--About Us Start-->
     <section class="aboutus">
         <div class="container">
             <div class="row">
@@ -191,13 +182,10 @@
             </div>
         </div>
     </section>
-    <!--About Us End-->
-
     <section class="all-services">
         <div class="container">
             <div class="row mt-4 align-items-center border-0">
                 <div class="col-lg-6">
-                    <!-- <img src="images/about-us/2.jpg" alt=""> -->
                     <iframe class="pq-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="images/yelo-images/yelo-2.mp4" id="widget2" controls autoplay></iframe>
                 </div>
                 <div class="col-lg-6">
@@ -316,7 +304,7 @@
                                         <div class="pq-team-social">
                                             <ul>
                                                 <li><a href="https://www.facebook.com/borma.jeremiah"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="https://x.com/DavidJeremie3?s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                <li><a href="https://x.com/DavidJeremie3?s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                                             <style>
                                                                 svg {
                                                                     fill: #ffffff
@@ -343,7 +331,7 @@
                                         <div class="pq-team-social">
                                             <ul>
                                                 <li><a href="https://web.facebook.com/godsentmichael.michael"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com/MichaelGodsent"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                <li><a href="https://twitter.com/MichaelGodsent"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                                             <style>
                                                                 svg {
                                                                     fill: #ffffff
@@ -370,7 +358,7 @@
                                         <div class="pq-team-social">
                                             <ul>
                                                 <li><a href="https://www.facebook.com/profile.php?id=100010934148896"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                                             <style>
                                                                 svg {
                                                                     fill: #ffffff
@@ -397,7 +385,7 @@
                                         <div class="pq-team-social">
                                             <ul>
                                                 <li><a href="https://www.facebook.com/profile.php?id=100010934148896"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                                             <style>
                                                                 svg {
                                                                     fill: #ffffff
@@ -424,7 +412,7 @@
                                         <div class="pq-team-social">
                                             <ul>
                                                 <li><a href="https://www.facebook.com/profile.php?id=100010934148896"><i class="fa-brands fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                <li><a href="https://twitter.com/prince47088090?t=1d8Gq1B00kupMgEUJGOIvQ&s=09"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                                             <style>
                                                                 svg {
                                                                     fill: #ffffff
@@ -507,23 +495,13 @@
     </section>
 
     <?php include "component/footer.php" ?>
-
-
-
-
     <script src="js/bootstrap.min.js"></script>
-
     <script src="js/owl.carousel.min.js"></script>
-
     <script src="js/progressbar.js"></script>
-
     <script src="js/isotope.pkgd.min.js"></script>
-
     <script src="js/jquery.countTo.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-
     <script src="js/wow.min.js"></script>
-
     <script src="js/rough-script.js"></script>
     <script src="js/rough-notation.iife.js"></script>
     <script src="js/rough-custom.js"></script>
