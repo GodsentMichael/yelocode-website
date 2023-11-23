@@ -428,6 +428,17 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <div class="pq-teambox-1">
+                                    <div class="pq-team-img">
+                                        <img src="images/client/uche.JPG" alt="team-image" style="height:530px;">
+                                    </div>
+                                    <div class="pq-team-info">
+                                        <h5>Uchenna Chukwuuba</h5>
+                                        <span class="pq-team-designation">Data Analysis</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
