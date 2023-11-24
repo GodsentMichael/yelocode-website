@@ -11,10 +11,10 @@
                                 Harcourt.</p>
                             <div class="pq-footer-social">
                                 <ul>
-                                    <li><a href="index.php#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index.php#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index.php#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="index.php#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                    <li><a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fyelocodesys%3Fmibextid%3DZbWKwL&e=AT3bCle2A63XuSN2B9a53Ea9dRQi9CSG0hxq8dNy8mGTpLB67hAA1tPtjujrI6S-TTrGkXYv1N_90J5RPE_XKrZZ1saO3lLsp8zhcbg"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/yelocodesystems/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://wa.me/2349162865693?text=Hello%2C%20welcome%20to%20Yelocode%20Systems%20ltd.%20An%20IT%20Solutions%20firm%20based%20in%20Port%20Harcourt%2C%20how%20can%20we%20be%20of%20help%3F"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="https://twitter.com/yelocode?lang=en"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                                                 <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                                 <style>
                                                     svg {

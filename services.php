@@ -22,17 +22,17 @@
 
                         <ul class="pq-list-check">
                             <li class="list-item">
-                                <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span class="progress-title pq-text-white">We Manage Client IT Services</span></a>
+                                <a href="#"><i class="ion ion-android-done-all"></i><span class="progress-title pq-text-white">We Manage Client IT Services</span></a>
                             </li>
                             <li class="list-item">
-                                <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i> <span class="progress-title pq-text-white">Business Website Development</span></a>
+                                <a href="#"><i class="ion ion-android-done-all"></i> <span class="progress-title pq-text-white">Business Website Development</span></a>
                             </li>
                             <li class="list-item">
-                                <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span class="progress-title pq-text-white">Providing
+                                <a href="#"><i class="ion ion-android-done-all"></i><span class="progress-title pq-text-white">Providing
                                         Comprehensive IT Training Services.</span></a>
                             </li>
                             <li class="list-item">
-                                <a href="qa-testing.html#"><i class="ion ion-android-done-all"></i><span class="progress-title pq-text-white">Offering Top-tier
+                                <a href="#"><i class="ion ion-android-done-all"></i><span class="progress-title pq-text-white">Offering Top-tier
                                         Internet Solutions For Businesses and Individuals.</span></a>
                             </li>
                         </ul>
